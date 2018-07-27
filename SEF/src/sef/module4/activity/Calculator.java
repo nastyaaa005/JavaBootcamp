@@ -3,6 +3,7 @@
  */
 package sef.module4.activity;
 
+//import java.util.Math;
 /**
  * @author 
  *
@@ -12,7 +13,7 @@ public class Calculator {
 	
 	private String calculatorType;
 	public static final String CALC_TYPE_BASIC = "Basic";
-	
+
 	// Default constructor
 	public Calculator() {}
 	

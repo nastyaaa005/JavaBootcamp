@@ -30,10 +30,15 @@ public class FindInArray {
 		result = nums[0];
 		
 		// Find largest in an array
+		/*int[] num = {10,12,3,56};
+		int res = num[0]; */
 		for (int i = 1; i < nums.length; i++) {
 			// complete the code
+			if(nums[i] > result){
+				result= nums[i];
+			}
 		}
-		System.out.println("Largest in array is "+result);
+		System.out.println("Largest in array is "+ result);
 
 
 	}
