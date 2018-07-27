@@ -13,12 +13,14 @@ public class NumToWordsUsingMethod {
 		 * @param args
 		 */
 		public static void main(String[] args) {
-			// complete the code to print text value of 8, 9 and 10
+			printMyWord(1);
+			printMyWord(3);
+			printMyWord(123);// complete the code to print text value of 8, 9 and 10
 
 		}
 
 		private static void printMyWord(int i) {
-			final String numText;
+			final String numText; // numText -> null
 			switch(i) {
 			case 1:
 				numText = "ONE";break;
@@ -47,7 +49,8 @@ public class NumToWordsUsingMethod {
 			
 		}
 
-
-		
-
 	}
+private static void printMyWord(String[] args) {
+	System.out.println(1);
+}
+}

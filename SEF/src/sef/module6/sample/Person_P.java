@@ -47,6 +47,7 @@ public class Person_P {
 	}
 	
 	// This method is overridden in Student class
+
 	public void announce(){
 		System.out.println("I am a Person");
 	}

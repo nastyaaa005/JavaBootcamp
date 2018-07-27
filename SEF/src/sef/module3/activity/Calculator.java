@@ -50,7 +50,7 @@ public class Calculator {
 
 	}
 
-	private static int divide(int x, int y) {
+	private static float divide(int x, int y) {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
