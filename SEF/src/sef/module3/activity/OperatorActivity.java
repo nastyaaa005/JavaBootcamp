@@ -22,10 +22,14 @@ public class OperatorActivity {
 		System.out.println("Difference = " + result);
 		
 		// Add numbers
-		
+		i = i*3;
+		j = j/2;
+		int modulo = i%j;
 		
 		// Print result
-		
+		System.out.println("i = " + i);
+		System.out.println("j = " + j);
+		System.out.println("Modulo = " + modulo);
 		
 	}
 
