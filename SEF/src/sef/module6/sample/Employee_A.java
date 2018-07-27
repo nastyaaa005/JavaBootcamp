@@ -9,7 +9,8 @@ public class Employee_A extends Person_A{
 	
 	//Behavior - default constructor
 	public Employee_A(){ 
-		System.out.println("I'm an Employee_A Constructor"); 
+
+		System.out.println("I'm an Employee_A Constructor");
 	}
 	
 	// getter for double salary

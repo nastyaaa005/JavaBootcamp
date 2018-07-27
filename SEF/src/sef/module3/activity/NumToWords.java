@@ -31,14 +31,12 @@ public class NumToWords {
 			numText = "FOUR";break;
 		case 5:
 			numText = "FIVE";break;
-		// complete the code.
 		default:
 			numText = "NUMBER " + i;
 		}
 		
 		System.out.println(numText);
-		
-	
+
 	}
 	
 

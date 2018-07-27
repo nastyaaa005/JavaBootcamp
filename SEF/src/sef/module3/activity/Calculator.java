@@ -19,7 +19,7 @@ public class Calculator {
 	System.out.println("Addition - " + add(x,y));
 	System.out.println("Subtraction - " + subtract(x,y));
 	System.out.println("Multiply - " + multiply(nums));
-	System.out.println("Divide - " + divide(x,y));
+	System.out.println("Divide - " + divide(x,0));
 	
 	}
 
@@ -55,7 +55,7 @@ public class Calculator {
 		if (x == 0 || y == 0) {
 			// complete the code
 		} else {
-			// complete the code
+			divValue = x /y;
 		}
 		return divValue;
 

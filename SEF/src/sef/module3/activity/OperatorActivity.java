@@ -17,12 +17,13 @@ public class OperatorActivity {
 		
 		// Subtract numbers
 		int result = i-j;
-		
 		// Print result
-		System.out.println("Difference = " + result);
+		System.out.println("Difference is : = " + result);
 		
 		// Add numbers
-		
+		result = i * j;
+		System.out.println("mult is: = " + result);
+
 		
 		// Print result
 		
