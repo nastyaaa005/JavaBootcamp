@@ -9,7 +9,7 @@ public static void main(String[] args) {
 void divide(int num1,int num2)
 {
 	try{
-	System.out.println(num1/num2);	
+	System.out.println(num1/num2);
 	}
 	catch(Exception e)
 	{
@@ -19,6 +19,6 @@ void divide(int num1,int num2)
 	{
 		System.out.println("Division by zero is not allowed");
 	}
-	
+
 }
 }
