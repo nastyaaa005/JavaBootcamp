@@ -22,6 +22,7 @@ public class MyCalculatorTest extends TestCase {
 		//	Checks the sum of two (2) positive values
 		assertEquals(15, (theCalculator.getSum(a,b)));
 		assertEquals(15, (theCalculator.getSum(b,a)));
+		theCalculator.
 	}
 
 	public void testSumPosNegNum() {
