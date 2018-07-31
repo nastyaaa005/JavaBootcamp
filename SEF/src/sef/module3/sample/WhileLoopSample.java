@@ -8,6 +8,12 @@ public class WhileLoopSample {
 		int counter = 0;
 		while(counter < 10){
 			System.out.println("The value of counter is : " + counter);
+			int j = 0;
+			while(j < 10) {
+				j++;
+				System.out.println("The value of counter J is : " + j);
+
+			};
 			counter++;		
 		}
 		

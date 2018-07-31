@@ -11,8 +11,8 @@ public class Calculator {
 		
 	public static void main(String[] args) {
 		
-	int x = 10;
-	int y = 5;
+	int x = 0;
+	int y = 0;
 	
 	int[] nums = {1, 2, 3, 4};
 	
@@ -33,8 +33,10 @@ public class Calculator {
 		int diff = 0;
 		if (x > y) {
 			// complete the code
+			diff = x-y;
 		} else {
 			// complete the code
+			diff = y-x;
 		}
 
 		return diff;
@@ -54,8 +56,16 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
+			if (x == 0) {
+				System.out.println("x = 0. The division of zero gives always zero.");
+			}
+			else
+			{
+				System.out.println("y = 0. The division on zero is forbidden.");
+			}
 		} else {
 			// complete the code
+			divValue = x/y;
 		}
 		return divValue;
 

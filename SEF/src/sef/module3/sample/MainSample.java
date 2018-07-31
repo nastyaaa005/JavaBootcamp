@@ -12,9 +12,9 @@ import java.lang.*;
 */
 public class MainSample {
 
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 		//	This line prints out the String 'Hello World!' in the console
-		System.out.println( "Welcome to Java!");
+		System.out.println( "Welcome to" + "\n Java!");
 		
 	}
 }

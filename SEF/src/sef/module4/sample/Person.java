@@ -6,6 +6,7 @@ public class Person {
 
 	//Attributes
 	private String name;
+
 	
 	
 	//Behavior

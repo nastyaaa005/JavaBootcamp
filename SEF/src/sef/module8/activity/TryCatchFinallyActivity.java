@@ -6,22 +6,27 @@ package sef.module8.activity;
 public class TryCatchFinallyActivity {
 public static void main(String[] args) {
 	TryCatchFinallyActivity obj=new TryCatchFinallyActivity();
-	obj.catchMeIfYouCan();
+	System.out.println("Out of upper bound------------");
+	obj.catchMeIfYouCan(10);
+	System.out.println("Equal to upper bound------------");
+	obj.catchMeIfYouCan(9);
 }
 
-void catchMeIfYouCan()
+void catchMeIfYouCan(int upperBound)
 {
-	int [] arr={0,1,2,3,4,5,6,7,8,9};
-	
-	for(int i=0;i<=10;i++)
-	{
-		System.out.println(arr[i]);
+	try {
+		int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+		for (int i = 0; i <= upperBound; i++) {
+			System.out.println(arr[i]);
+		}
 	}
-	
-	
-	
-	System.out.println("This should get printed even if there is an exception");
-	
+	catch(ArrayIndexOutOfBoundsException e){
+		System.out.println("The array is out of bounds!");
+	}
+	finally {
+		System.out.println("This should get printed even if there is an exception");
+	}
 }
 
 }

@@ -9,15 +9,18 @@ public static void main(String[] args) {
 void divide(int num1,int num2)
 {
 	try{
-	System.out.println(num1/num2);	
-	}
-	catch(Exception e)
-	{
-		System.out.println("Exception!!!");
+		  assert num2!= 0 : "Division by zero";
+		  assert num1 != 0 : "Division on zero always is equal to zero";
+
+	      System.out.println(num1/num2);
 	}
 	catch(ArithmeticException a)
 	{
 		System.out.println("Division by zero is not allowed");
+	}
+	catch(Exception e) //supertype should be after all subtype catches
+	{
+		System.out.println("Exception!!!");
 	}
 	
 }

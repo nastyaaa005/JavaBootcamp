@@ -14,8 +14,7 @@ public class NumToWords {
 	 */
 	public static void main(String[] args) {
 		
-		
-				
+
 		int i = 8;
 		String numText = "";
 
@@ -31,15 +30,46 @@ public class NumToWords {
 			numText = "FOUR";break;
 		case 5:
 			numText = "FIVE";break;
-		// complete the code.
+		case 6:
+			numText = "SIX";break;
+		case 7:
+			numText = "SEVEN";break;
+		case 8:
+			numText = "EIGHT";break;
 		default:
 			numText = "NUMBER " + i;
 		}
 		
 		System.out.println(numText);
-		
-	
-	}
-	
+
+		numText = "";
+		i = 5;
+
+        if (i == 1) {
+            numText = "ONE";
+        }else
+        if (i == 2) {
+           numText = "TWO";
+        }else
+        if (i == 3) {
+            numText = "THREE";
+        } else
+        if (i == 4) {
+            numText = "FOUR";
+        } else
+        if (i == 5) {
+            numText = "FIVE";
+        } else
+        if (i == 6) {
+            numText = "SIX";
+        } else
+        if (i == 7) {
+            numText = "SEVEN";
+         } else
+            numText = "EIGHT";
+
+        System.out.println(numText);
+    }
 
 }
+

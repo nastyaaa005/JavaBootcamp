@@ -1,14 +1,11 @@
 package sef.module6.activity;
 
-public class Rectangle extends Shape{
+public class Rectangle2 extends Shape{
 
     private double sideA;
     private double sideB;
+    //private String color;
 
-    public Rectangle(){
-
-        super.setColor("some color");
-    }
 
     public double getSideA() {
         return this.sideA;
@@ -26,6 +23,16 @@ public class Rectangle extends Shape{
         this.sideB = side;
     }
 
+    Rectangle2(){
+
+    }
+
+    Rectangle2(int sA, int sB, String col){
+        this.sideA=sA;
+        this.sideB=sB;
+        this.color=col;
+    }
+
     public double CalculateArea() {
         if (sideA !=0 & sideB !=0)
             return sideA*sideB;
@@ -39,5 +46,6 @@ public class Rectangle extends Shape{
     public void printAreaAndPerimeter(){
         System.out.println("The area of rectangle is " + CalculateArea());
         System.out.println("The perimeter of rectangle is " + CalculatePerimeter());
+        System.out.println("The color of rectangle is " + getColor());
     }
 }

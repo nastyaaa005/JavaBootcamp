@@ -4,12 +4,15 @@ public class Square extends Shape{
 
 
     private double side;
-    private String color;
+    //private String color;
 
-    public Square(){
-
+    Square(){
     }
 
+    Square(int side, String col) {
+        this.side = side;
+        super.setColor(col);
+    }
     public double getSide() {
         return side;
     }
@@ -17,6 +20,7 @@ public class Square extends Shape{
     public void setSide(int side) {
         this.side = side;
     }
+
 
     public double CalculateArea() {
         if (side !=0)
@@ -34,5 +38,6 @@ public class Square extends Shape{
     public void printAreaAndPerimeter(){
         System.out.println("The area of square is " + this.CalculateArea());
         System.out.println("The perimeter of square is " + this.CalculatePerimeter());
+        System.out.println("The color of square is " + this.getColor());
     }
     }

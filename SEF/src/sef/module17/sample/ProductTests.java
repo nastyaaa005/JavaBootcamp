@@ -24,5 +24,30 @@ public class ProductTests extends TestCase {
         assertEquals(testPrice, product.getPrice(), 0);
     }
 
+    public void testToString(){
+        double price = 123.2;
+        String description = "testDescription";
+        String name = "John";
+
+        product.setPrice(price);
+        product.setDescription(description);
+        product.setName(name);
+
+        assertTrue("Price failed.", product.toString().contains("Price: " + price));
+        assertTrue("Description failed.", product.toString().contains("Description: " + description + ";"));
+        assertTrue("Name failed.", product.toString().contains("Name: " + name + ";"));
+
+    }
+
+    public void testGetAndSetName(){
+
+        String name = "testName";
+
+        assertEquals("Unknown", product.getName());
+        product.setName(name);
+        assertEquals(name, product.getName());
+
+    }
+
 
 }

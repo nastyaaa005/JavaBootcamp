@@ -26,7 +26,13 @@ public class CalculatorClient {
 		// Multiply 
 		int[] mul = {2, 3, 4};
 		result = normalCalc.multiply(mul);
-		System.out.println("2) Multiplication result is " + result); 
+		System.out.println("2) Multiplication result is " + result);
+
+		Calculator calc = new Calculator();
+		float result2 = calc.divideFloat(5, 8);
+		System.out.println("3) The division of 5/8 is " + result2);
+
+        System.out.println("4) The difference of 5 and 8 is " + calc.subtract(5,8));
 		
 
 	}
