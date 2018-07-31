@@ -3,6 +3,7 @@ package sef.module8.activity;
 //1 - Find out the error in this program and share your finding with the instructor
 public class ExceptionSequenceActivity {
 public static void main(String[] args) {
+
 	new ExceptionSequenceActivity().divide(10,0);
 }
 
@@ -15,7 +16,8 @@ void divide(int num1,int num2)
 	{
 		System.out.println("Exception!!!");
 	}
-	catch(ArithmeticException a)
+
+	catch( ArithmeticException a)
 	{
 		System.out.println("Division by zero is not allowed");
 	}

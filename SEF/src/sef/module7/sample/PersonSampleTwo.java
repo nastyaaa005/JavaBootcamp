@@ -6,8 +6,8 @@ public class PersonSampleTwo {
 	private int age;
 	
 	public PersonSampleTwo(String name, int age){
-		setName(name);
-		setAge(age);
+		 setName(name);
+		public setAge(age);
 	}
 	
 	public final void setName(String name){
