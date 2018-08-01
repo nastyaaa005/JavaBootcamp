@@ -32,7 +32,6 @@ public class Employee extends Person {
         this.empId = empId;
     }
 
-
     public String getJobTitle() {
         return jobTitle;
     }
