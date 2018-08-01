@@ -10,7 +10,7 @@ public class ThirdActivity {
         //TODO handle exception on proper way
         ta.validateUser("Ivan");
         ta.catchExeption();
-        ta.catchMe(0,0);
+        ta.catchMe(1,0);
     }
 
     void catchExeption() {
@@ -24,8 +24,6 @@ public class ThirdActivity {
                 System.out.println("This should get printed even if there is an exception");
             }
         }
-
-
     }
 
     void validateUser(String name) {
@@ -33,14 +31,18 @@ public class ThirdActivity {
         int flag = 0;
         //TODO if name in a list -> set flag=1
         // if at the end flag=0 -> throw the exeption
-        for (int i = 0; i < 4; i++) {
-            if (name == validUsers[i]) {
-                flag = 1;
-                break;
+        try {
+            for (int i = 0; i < 4; i++) {
+                if (name == validUsers[i]) {
+                    flag = 1;
+                    break;
+                }
+                if (flag == 0) throw new InvalidUserException("Invalid User");
             }
         }
-        if (flag == 0)
-
+        catch (InvalidUserException iuEx) {
+            System.out.println("Exception: " + iuEx.getMessage());
+        }
     }
 
     void catchMe(int num1, int num2)
@@ -48,17 +50,23 @@ public class ThirdActivity {
         //TODO Catch exeption
         try {
             int result = num1 / num2;
+            System.out.println("Result: " + result);
         }
         catch (Exception e){
             System.out.println("Ex handled: " + e.getMessage());
         }
-            System.out.println("The result is :" + result);
         finally {
             //TODO prints a message "Thank you for using this program." always
             System.out.println("Thank you for using this program.");
         }
-
-
     }
+
+    public class InvalidUserException extends Exception {
+
+        public InvalidUserException(String message){
+            super(message);
+        }
+    }
+
 }
 
