@@ -71,4 +71,7 @@ public class Calculator {
 		return divValue;
 
 	}
+
+    public static class DateActivity {
+    }
 }

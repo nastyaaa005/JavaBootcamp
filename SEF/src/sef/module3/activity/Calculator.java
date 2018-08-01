@@ -17,9 +17,12 @@ public class Calculator {
 	int[] nums = {1, 2, 3, 4};
 	
 	System.out.println("Addition - " + add(x,y));
+		System.out.println("Addition - " + add(234, y));
+
 	System.out.println("Subtraction - " + subtract(x,y));
 	System.out.println("Multiply - " + multiply(nums));
 	System.out.println("Divide - " + divide(x,y));
+		System.out.println("Divide - " + divide(10,y));
 	
 	}
 

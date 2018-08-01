@@ -13,10 +13,9 @@ public class NumToWords {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
-		
+
 				
-		int i = 8;
+		int i = 5;
 		String numText = "";
 
 		switch(i) {
@@ -32,6 +31,7 @@ public class NumToWords {
 		case 5:
 			numText = "FIVE";break;
 		// complete the code.
+
 		default:
 			numText = "NUMBER " + i;
 		}

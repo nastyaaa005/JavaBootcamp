@@ -24,7 +24,13 @@ public class PrintNumWithWhile {
 		
 		 
 		// write code to Print all odd numbers less than 100
+          int j=1;
+		 while(j<=100){
+		 	if(j % 2 ==1)
+		 	System.out.println(j);
 
+		 	j = ++j;
+		 }
 	}
 
 }

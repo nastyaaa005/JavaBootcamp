@@ -1,5 +1,4 @@
 package sef.module4.sample;
-
 import java.util.Calendar;
 
 public class Person {
@@ -23,5 +22,5 @@ public class Person {
 	public String introduce(){
 		return "My name is " + name;
 	}
-	
+	 public String getGender(){}
 }

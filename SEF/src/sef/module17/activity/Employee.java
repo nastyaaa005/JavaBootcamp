@@ -30,6 +30,8 @@ class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-	
-	
+
+	public String announce(){
+		return " ID " + id +" Name " + firstName + lastName + "Salary " + salary;
+	}
 }

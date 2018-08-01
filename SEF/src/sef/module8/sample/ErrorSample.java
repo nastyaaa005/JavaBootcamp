@@ -10,11 +10,12 @@ public class ErrorSample {
 	//Below method calls itself and
 	//it happens infinite times because there is no exit condition
 	//At one point in time, JVM would give up and show StackOverflowError
-	public static void infinity(){
+	public static void infinity()throws StackOverflowError{
 		//1 - Print a message
+		System.out.println("Onfinity and beyond!");
 	
 		
 		//2 - Call infinity()
-	
+	  infinity();
 	}
 }
