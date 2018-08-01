@@ -23,7 +23,7 @@
     <SUITE FILE_PATH="coverage/SEF$StudentTest.ic" NAME="StudentTest Coverage Results" MODIFIED="1533125625234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sef.ATestTask.FirstActivity.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SEF$SecondActivityTest.ic" NAME="SecondActivityTest Coverage Results" MODIFIED="1533129991881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SEF$SecondActivityTest.ic" NAME="SecondActivityTest Coverage Results" MODIFIED="1533130427249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sef.ATestTask.SecondActivity.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SEF$EmployeeTest.ic" NAME="EmployeeTest Coverage Results" MODIFIED="1533125463191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -53,12 +53,10 @@
       <file leaf-file-name="SecondActivityTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="272">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="833" />
@@ -581,31 +579,17 @@
       <option name="project" value="LOCAL" />
       <updated>1533129604565</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="TestTask">
+      <created>1533130170231</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1533130170231</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 18m 11s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 18m 43s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 18m 58s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 19m 27s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 19m 50s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 22m 27s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 23m 49s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SecondActivityTest - 2018.08.01 at 16h 24m 01s.xml">
       <configuration name="SecondActivityTest" configurationId="JUnit" />
     </history-entry>
@@ -615,26 +599,47 @@
     <history-entry file="SecondActivityTest - 2018.08.01 at 16h 26m 33s.xml">
       <configuration name="SecondActivityTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 30m 13s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 30m 36s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 31m 15s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 32m 36s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 33m 15s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 33m 32s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 33m 48s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="833" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32805756" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32791328" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32805756" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3089431" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.23333333" />
+      <window_info active="true" anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.2332905" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28913045" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25642672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -870,12 +875,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="272">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
           </folding>
         </state>
       </provider>

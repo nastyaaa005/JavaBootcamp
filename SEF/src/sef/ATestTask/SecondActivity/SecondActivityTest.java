@@ -43,7 +43,9 @@ public class SecondActivityTest extends TestCase {
 
 	@Test
 	public void testDivZero() {
-		assertEquals(java.lang.ArithmeticException.class, (theCalculator.div(0, 2)));
+		assertEquals(Double.NaN, (theCalculator.div(0, 0)));
+		assertEquals(Double.POSITIVE_INFINITY, (theCalculator.div(2, 0)));
+		assertEquals(0.0, (theCalculator.div(0, 2)));
 	}
 
 	@Test
