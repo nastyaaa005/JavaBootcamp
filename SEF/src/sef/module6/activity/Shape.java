@@ -11,8 +11,8 @@ public abstract class Shape {
 	public Shape() {
 
 		Shape Square = new Square();
-		Square.setColor(red);
-
+		Square.setColor("red");
+		System.out.println("This square is " + Square.setColor(String c));
 	}
 	
 	// Complete the code and Add abstract method calculateArea() and calculatePerimeter() with return type as double
@@ -26,6 +26,6 @@ public abstract class Shape {
 		return color;
 	}
 	
-	System.out.println("This square is " + Square.setColor(String c));
+
 
 }

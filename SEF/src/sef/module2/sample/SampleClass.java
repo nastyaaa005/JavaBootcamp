@@ -4,8 +4,8 @@ public class SampleClass {
     public static void main(String args[]) {
 
 
-      int  i = 0;
+        System.out.println( "Text: I am learning Java");
     }
-System.out.println( "Text: ");
+
 
 }
