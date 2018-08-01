@@ -21,7 +21,7 @@ Tasks
 4) in file FirstActivity
   4.1 create few employees
   4.2 try to print them from top salary to less
-  4.3 create person who became a student, and after that became a employee (must be one instance)
+  4.3 create person who became a student, and after that became a employee (must be one instance)!!!!
 
 5) Create unit test for ALL classes (example in EmployeeTest)
 
