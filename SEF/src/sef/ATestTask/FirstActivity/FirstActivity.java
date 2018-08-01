@@ -10,6 +10,13 @@ public class FirstActivity {
 
 		//TODO 1 Create collection of employee (more than 5)
 
+        // Task 8
+        Person p1 = new Person();
+        Person p2 = new Person("name1", "222", 22);
+        // Task 8 test
+        p1.announce();
+        p2.announce();
+
         // create Employee objects
 		Employee e0 = new Employee();
 		Employee e1 = new Employee(1, "Dev", "ABC", 1200);
@@ -36,7 +43,7 @@ public class FirstActivity {
 
 		//TODO 2 sort and this employees by salary (from min to max)
 		// TIP - google bubble sort
-
+/*
         for (int size = empCol.size(); size != 1; --size) {
             for (int i = 0; i < size - 1; i++) {
                 double temp1 = empCol.get(i + 1).getSalary();
@@ -54,13 +61,14 @@ public class FirstActivity {
         }
 
 
-
+*/
 		//TODO 3 create instance of the Person ->
 		// than make them Student
 		// than make them Employee
 		//		System.out.println() result
 
-        /*Person p = new Person("Fn", "Sn", 22);
+/*
+        Person p = new Person("Fn", "Sn", 22);
         p.announce();
         Student s = (Student) p;
         s.announce();

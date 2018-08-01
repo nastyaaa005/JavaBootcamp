@@ -18,8 +18,15 @@ public class Person {
 
 	// Person's parameterized constructor
 	public Person(String firstName, String secondName, int age) {
-		this.firstName = firstName;
-		this.secondName = secondName;
+		// Task 8 first name
+		if (firstName.chars().allMatch(Character::isLetter))
+			this.firstName = firstName;
+		else System.out.println("Non-letter characters in first name");
+		// Task 8 second name
+		if (secondName.chars().allMatch(Character::isLetter))
+			this.secondName = secondName;
+		else System.out.println("Non-letter characters in second name");
+
 		this.age = age;
 	}
 
@@ -28,7 +35,10 @@ public class Person {
 		return firstName;
 	}
 	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+		// Task 8, first name
+		if (firstName.chars().allMatch(Character::isLetter))
+			this.firstName = firstName;
+		else System.out.println("Non-letter characters in first name");
 	}
 
 	// getter/setter for String secondName
@@ -36,7 +46,10 @@ public class Person {
 		return secondName;
 	}
 	public void setSecondName(String secondName) {
-		this.secondName = secondName;
+		// Task 8, second name
+		if (secondName.chars().allMatch(Character::isLetter))
+			this.secondName = secondName;
+		else System.out.println("Non-letter characters in second name");
 	}
 
 	// getter/setter for int age

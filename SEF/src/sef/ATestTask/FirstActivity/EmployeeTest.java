@@ -2,9 +2,7 @@ package sef.ATestTask.FirstActivity;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class EmployeeTest {
 
@@ -39,6 +37,13 @@ public class EmployeeTest {
     }
 
     @Test
+    public void test_JobTitleExists() {
+        Employee employee = new Employee();
+        employee.setJobTitle("");
+        assertNotEquals("no JobTitle", "", employee.getJobTitle());
+    }
+
+    @Test
     public void test_CompanyName() {
         Employee employee = new Employee();
         employee.setCompanyName("test2");
@@ -46,10 +51,24 @@ public class EmployeeTest {
     }
 
     @Test
+    public void test_CompanyNameExists() {
+        Employee employee = new Employee();
+        employee.setCompanyName("");
+        assertNotEquals("no CompanyName", "", employee.getCompanyName());
+    }
+
+    @Test
     public void test_Salary() {
         Employee employee = new Employee();
         employee.setSalary(1);
         assertEquals("Salary", 1, employee.getSalary(), 0);
+    }
+
+    @Test
+    public void test_SalaryExists() {
+        Employee employee = new Employee();
+        employee.setSalary(0);
+        assertNotEquals("Salary is 0",0, employee.getSalary(), 0);
     }
 
 
