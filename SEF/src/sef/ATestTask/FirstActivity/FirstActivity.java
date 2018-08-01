@@ -7,7 +7,34 @@ public class FirstActivity {
 		//TODO 1 Create collection of employee (more than 5)
 		//		System.out.println() result
 
+		Person P1 = new Person();
+		Person P2 = new Person("John", "Wick", 33);
+
+		P1.setFirstName("Dima");
+		P1.introduce();
+		P2.introduce();
+
+
+		Student L1 = new Student();
+		Student L2 = new Student("Robert", "Wang", 46 );
+
+		L1.setFirstName("Robert");
+		L1.introduce();
+		L2.introduce();
+
+		Employee F1 = new Employee();
+		Employee F2 = new Employee(234, "engineer", "ABC" , 456.29 );
+
+		F1.empId(123);
+		F1.setJobTitle("Developer");
+
+		F1.introduce();
+		F2.introduce();
+
+
+	}
 		//TODO 2 sort and this employees by salary (from min to max)
+
 		// TIP - google bubble sort
 		//		System.out.println() result
 
@@ -24,4 +51,4 @@ public class FirstActivity {
 
 	
 	
-}
+
