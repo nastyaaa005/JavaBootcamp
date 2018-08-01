@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e725896a-13e8-461f-ac6e-fedf2bc5bc8d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sef/ATestTask/ThirdActivity/ThirdActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sef/ATestTask/ThirdActivity/ThirdActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/EmployeeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,22 +18,27 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="AUTO_SHOW_ERRORS_IN_EDITOR" value="false" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SEF$EmployeeTest.ic" NAME="EmployeeTest Coverage Results" MODIFIED="1533121169356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sef.ATestTask.FirstActivity.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+            <state relative-caret-position="129">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmployeeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/EmployeeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +49,17 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -51,8 +67,17 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="85">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/StudentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -60,8 +85,8 @@
       <file leaf-file-name="SecondActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="187">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -69,7 +94,7 @@
       <file leaf-file-name="SecondActivityTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
+            <state relative-caret-position="392">
               <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,7 +106,7 @@
       <file leaf-file-name="Task" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/Task">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="119">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
@@ -99,20 +124,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThirdActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/ThirdActivity/ThirdActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="e#1844#1845#0" expanded="true" />
-                <element signature="e#1882#1883#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -150,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/sef/ATestTask/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/SecondActivity.java" />
-        <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivity.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/ThirdActivity/CustomExceptionActivityTest.java" />
@@ -158,11 +176,14 @@
         <option value="$PROJECT_DIR$/src/sef/module8/activity/TryCatchFinallyActivity.java" />
         <option value="$PROJECT_DIR$/src/sef/module8/activity/ExceptionSequenceActivity.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/Task" />
-        <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Employee.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Person.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Student.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/FirstActivity.java" />
         <option value="$PROJECT_DIR$/src/sef/ATestTask/ThirdActivity/ThirdActivity.java" />
+        <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Employee.java" />
+        <option value="$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/EmployeeTest.java" />
       </list>
     </option>
   </component>
@@ -209,13 +230,6 @@
               <item name="ATestTask" type="462c0819:PsiDirectoryNode" />
               <item name="SecondActivity" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SEF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SEF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ATestTask" type="462c0819:PsiDirectoryNode" />
-              <item name="ThirdActivity" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -226,12 +240,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="sef.ATestTask.FirstActivity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sef.ATestTask" />
     </key>
@@ -251,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThirdActivity">
+  <component name="RunManager" selected="JUnit.EmployeeTest">
     <configuration name="AddWholeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sef.module3.activity.AddWholeNum" />
       <module name="SEF" />
@@ -317,6 +340,29 @@
         <option name="Make" enabled="false" />
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="SEF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sef.ATestTask.FirstActivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sef.ATestTask.FirstActivity" />
+      <option name="MAIN_CLASS_NAME" value="sef.ATestTask.FirstActivity.EmployeeTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="MyCalculatorTest.testGetSumNegativeValueValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SEF" />
@@ -393,6 +439,7 @@
       <item itemvalue="JUnit.MyCalculatorTest.testGetSumNegativeValueValue" />
       <item itemvalue="Application.FirstActivity" />
       <item itemvalue="Application.ThirdActivity" />
+      <item itemvalue="JUnit.EmployeeTest" />
     </list>
     <recent_temporary>
       <list>
@@ -448,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533117735175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TestTask">
+      <created>1533120650091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533120650091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -460,6 +514,21 @@
     </history-entry>
     <history-entry file="MyCalculatorTest_testGetSumNegativeValueValue - 2018.08.01 at 11h 04m 49s.xml">
       <configuration name="MyCalculatorTest.testGetSumNegativeValueValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeTest - 2018.08.01 at 13h 52m 17s.xml">
+      <configuration name="EmployeeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeTest - 2018.08.01 at 13h 59m 31s.xml">
+      <configuration name="EmployeeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeTest - 2018.08.01 at 14h 04m 11s.xml">
+      <configuration name="EmployeeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeTest - 2018.08.01 at 14h 04m 54s.xml">
+      <configuration name="EmployeeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeTest - 2018.08.01 at 14h 05m 15s.xml">
+      <configuration name="EmployeeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -474,12 +543,13 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007246" side_tool="true" weight="0.32805756" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49927536" visible="true" weight="0.32805756" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49927536" visible="true" weight="0.30791366" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294964" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32971016" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28478262" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2525707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -586,8 +656,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sef/module3/sample/CastingSample.java" />
-    <entry file="file://$PROJECT_DIR$/src/sef/module3/activity/AddWholeNum.java" />
     <entry file="file://$PROJECT_DIR$/src/sef/module13/sample/InsertSample.java" />
     <entry file="file://$PROJECT_DIR$/src/sef/module3/activity/MultiplicationTable.java" />
     <entry file="file://$PROJECT_DIR$/src/sef/module2/sample/HelloWorld.java" />
@@ -628,57 +696,13 @@
     <entry file="file://$PROJECT_DIR$/src/sef/module8/activity/ExceptionSequenceActivity.java" />
     <entry file="file://$PROJECT_DIR$/src/sef/module8/activity/CustomExceptionActivity.java" />
     <entry file="file://$PROJECT_DIR$/src/sef/module8/activity/ArithmeticExceptionActivity.java" />
-    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/ThirdActivity/ThirdActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/EmployeeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="62">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/Task">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -693,13 +717,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/ThirdActivity/ThirdActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="289">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/Task">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/FirstActivity/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

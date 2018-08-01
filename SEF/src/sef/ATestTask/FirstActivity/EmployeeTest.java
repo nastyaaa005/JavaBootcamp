@@ -14,4 +14,12 @@ public class EmployeeTest {
         assertEquals("I am an error message", "Test1", employee.getFirstName());
     }
 
+    @Test
+    public void checkDefaultEmployee(){
+        Employee employee = new Employee();
+        assertEquals("Invalid empId", 0, employee.getEmpId());
+        assertEquals("Invalid job title", "Unknown", employee.getJobTitle());
+        assertEquals("Invalid company name", "Unknown", employee.getCompanyName());
+        assertEquals("Invalid salary", 0, employee.getSalary(), 0);
+    }
 }
