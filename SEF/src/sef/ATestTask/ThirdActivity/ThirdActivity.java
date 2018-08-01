@@ -10,6 +10,7 @@ public class ThirdActivity {
         //TODO handle exception on proper way
         ta.validateUser("Ivan");
         ta.catchExeption();
+        ta.catchMe(0,0);
     }
 
     void catchExeption() {
@@ -38,17 +39,25 @@ public class ThirdActivity {
                 break;
             }
         }
+        if (flag == 0)
 
     }
 
     void catchMe(int num1, int num2)
     {
         //TODO Catch exeption
-            int result=num1/num2;
+        try {
+            int result = num1 / num2;
+        }
+        catch (Exception e){
+            System.out.println("Ex handled: " + e.getMessage());
+        }
             System.out.println("The result is :" + result);
-
+        finally {
             //TODO prints a message "Thank you for using this program." always
             System.out.println("Thank you for using this program.");
+        }
+
 
     }
 }
