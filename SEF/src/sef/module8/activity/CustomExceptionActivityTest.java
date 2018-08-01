@@ -7,11 +7,12 @@ public class CustomExceptionActivityTest {
 
 	//1 - Type main method and call validateUser() from it.
 	//Call this method with different names to test it 
-
+public static void main(String args(1))
 
 void validateUser(String name)
 {
 	//array of names
+
 String []validUsers={"John","Mike","Shanti","Stacie"};
 //flag stores 1 if a match is found else it should remain 0 
 int flag=0;
@@ -26,6 +27,6 @@ for(int i=0;i<4;i++)
 
 
 //4 - else if flag is one, print a message "Welcome to Payroll program". 
-
+else if (flag) {
 }
 }

@@ -15,6 +15,6 @@ public class ErrorSample {
 	
 		
 		//2 - Call infinity()
-	
+	infinity();
 	}
 }

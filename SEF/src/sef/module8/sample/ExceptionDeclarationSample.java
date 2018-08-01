@@ -6,8 +6,10 @@ public class ExceptionDeclarationSample {
 		if(age < 0 ){
 			//1 - Throw an instance of  IllegalArgumentException with a String parameter
 			//The parameter passed would be printed in the output
-			
+			throw new IllegalArgumentException(("Age cannot be less than 0")
+
 		}
+		throw
 	}
 	
 	public static void main(String arg[]){
