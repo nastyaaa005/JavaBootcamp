@@ -3,12 +3,12 @@ package sef.ATestTask.FirstActivity;
 
 //TODO Implement class Student
 
-public class Student extends Person {
+public class Student {
     public String university;
 
-    public Student() {
-        this.university = "Latvijas Universitate";
-    }
+//    public Student() {
+//        this.university = "Latvijas Universitate";
+//    }
 
     public Student(String university) {
         this.university = university;
@@ -18,8 +18,8 @@ public class Student extends Person {
 
     public void setUniversity(String university) { this.university = university; }
 
-    public static void main(String[] args) {
-        Student one = new Student();
-        System.out.println("My name is " +  one.firstName + " and I study at " + one.university + ".");
-    }
+//    public static void main(String[] args) {
+//        Student one = new Student();
+//        System.out.println("My name is " +  one.firstName + " and I study at " + one.university + ".");
+//    }
 }
