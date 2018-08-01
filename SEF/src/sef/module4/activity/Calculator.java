@@ -64,7 +64,7 @@ public class Calculator {
 	public int divide(int x, int y) {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
-			divValue = 0;
+			System.out.println("error");
 		} else {
 			divValue = x / y;
 		}

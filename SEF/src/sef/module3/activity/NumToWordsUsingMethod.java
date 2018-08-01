@@ -13,6 +13,10 @@ public class NumToWordsUsingMethod {
 		 * @param args
 		 */
 		public static void main(String[] args) {
+			printMyWord(1);
+			printMyWord(8);
+			printMyWord(9);
+			printMyWord(10);
 			// complete the code to print text value of 8, 9 and 10
 
 		}
@@ -46,6 +50,8 @@ public class NumToWordsUsingMethod {
 			System.out.println(numText);
 			
 		}
+		private static void printMyword (String ababa args);
+
 
 
 		

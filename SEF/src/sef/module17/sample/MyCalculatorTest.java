@@ -30,11 +30,11 @@ public class MyCalculatorTest extends TestCase {
 		assertEquals(5, (theCalculator.getSum(a,b)));
 		assertEquals(5, (theCalculator.getSum(b,a)));
 		
-		a = -5;		
-		b = -10;		
+		int a = -5;
+		int b = -10;
 		//	Checks the sum of two (2) negative values
 		assertEquals(-15, (theCalculator.getSum(a,b)));
-		assertEquals(-15, (theCalculator.getSum(b,a)));
+		assertEquals("This assertion are bad", -14 (theCalculator.getSum(b,a)));
 	}
 
 	public void testGetDifference() {
@@ -82,7 +82,8 @@ public class MyCalculatorTest extends TestCase {
 		assertEquals(30, (theCalculator.getProduct(b,a)),0);
 	}
 
-	public void testGetQuotient() {
+	public void testGetQuotientOfaZeroValues() {
+		double a =]c
 
 		double a = 10;	double b = 5;		
 		//	Checks if b is lesser than a
