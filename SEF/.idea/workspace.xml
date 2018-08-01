@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e725896a-13e8-461f-ac6e-fedf2bc5bc8d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -24,7 +23,7 @@
     <SUITE FILE_PATH="coverage/SEF$StudentTest.ic" NAME="StudentTest Coverage Results" MODIFIED="1533125625234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sef.ATestTask.FirstActivity.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SEF$SecondActivityTest.ic" NAME="SecondActivityTest Coverage Results" MODIFIED="1533129588980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/SEF$SecondActivityTest.ic" NAME="SecondActivityTest Coverage Results" MODIFIED="1533129991881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sef.ATestTask.SecondActivity.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SEF$EmployeeTest.ic" NAME="EmployeeTest Coverage Results" MODIFIED="1533125463191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -54,10 +53,12 @@
       <file leaf-file-name="SecondActivityTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="246">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -573,25 +574,17 @@
       <option name="project" value="LOCAL" />
       <updated>1533128550381</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="TestTask">
+      <created>1533129604565</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533129604565</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 12m 32s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 14m 18s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 14m 38s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 14m 52s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 15m 56s.xml">
-      <configuration name="SecondActivityTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SecondActivityTest - 2018.08.01 at 16h 18m 11s.xml">
       <configuration name="SecondActivityTest" configurationId="JUnit" />
     </history-entry>
@@ -605,6 +598,21 @@
       <configuration name="SecondActivityTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SecondActivityTest - 2018.08.01 at 16h 19m 50s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 22m 27s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 23m 49s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 24m 01s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 24m 14s.xml">
+      <configuration name="SecondActivityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondActivityTest - 2018.08.01 at 16h 26m 33s.xml">
       <configuration name="SecondActivityTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -622,11 +630,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32805756" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.23333333" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.23333333" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28913045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28913045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -862,10 +870,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sef/ATestTask/SecondActivity/SecondActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="246">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
           </folding>
         </state>
       </provider>

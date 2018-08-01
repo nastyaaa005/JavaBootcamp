@@ -43,8 +43,7 @@ public class SecondActivityTest extends TestCase {
 
 	@Test
 	public void testDivZero() {
-		assertEquals(3.5, (theCalculator.div(7, 2)));
-		assertEquals(5.0, (theCalculator.div(10, 2)));
+		assertEquals(java.lang.ArithmeticException.class, (theCalculator.div(0, 2)));
 	}
 
 	@Test
