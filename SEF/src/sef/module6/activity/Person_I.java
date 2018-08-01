@@ -8,7 +8,13 @@ public class Person_I {
 	//Attributes
 	private String name;
 	private int age;
-	
+
+    public void setName(String sarah johnson) {
+    }
+
+	public void setAge(int i=22) {
+	}
+
 	//Behavior - write default constructor. Print 'I'm Person_I constructor'
 	
 	

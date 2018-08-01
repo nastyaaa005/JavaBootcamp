@@ -54,9 +54,10 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
+			System.out.println("Cant devide on 0");
 		} else {
-			// complete the code
-		}
+			divValue=x/y; }
+
 		return divValue;
 
 	}

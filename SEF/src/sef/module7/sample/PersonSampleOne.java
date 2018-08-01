@@ -1,6 +1,6 @@
 package sef.module7.sample;
 
 public class PersonSampleOne {
-	String name;
+	public String name;
 	int age;
 }

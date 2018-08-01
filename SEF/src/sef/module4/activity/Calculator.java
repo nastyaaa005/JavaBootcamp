@@ -57,7 +57,6 @@ public class Calculator {
 			temp = temp * numbers[i];
 		}
 		return temp;
-
 	}
 
 	// Divide

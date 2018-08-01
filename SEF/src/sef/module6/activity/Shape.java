@@ -3,7 +3,7 @@ package sef.module6.activity;
 public class Shape {
 
 	public String color;
-	
+
 	public Shape() {
 	}
 	

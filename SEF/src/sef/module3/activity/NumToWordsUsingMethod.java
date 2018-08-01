@@ -14,12 +14,15 @@ public class NumToWordsUsingMethod {
 		 */
 		public static void main(String[] args) {
 			// complete the code to print text value of 8, 9 and 10
-
+			printMyWord(1);
+			printMyWord(2);
+			printMyWord(5);
+			printMyWord("hdjhfjd);
 		}
 
-		private static void printMyWord(int i) {
-			final String numText;
-			switch(i) {
+		private static void printMyWord(String s) {
+			final String numText; //numtext=0
+			switch(s) {
 			case 1:
 				numText = "ONE";break;
 			case 2:

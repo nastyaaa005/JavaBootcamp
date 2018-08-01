@@ -16,22 +16,35 @@ public class MyCalculatorTest extends TestCase {
 		super.tearDown();
 	}
 
-	public void testGetSum() {
-		
+	public void testcheckSumPositiveNumbers(){
 		int a = 5;
-		int b = 10;			
+		int b = 10;
 		//	Checks the sum of two (2) positive values
 		assertEquals(15, (theCalculator.getSum(a,b)));
-		assertEquals(15, (theCalculator.getSum(b,a)));		
+		assertEquals(15, (theCalculator.getSum(b,a)));
 
-		a = -5;		
-		b = 10;		
+	}
+	public void testSumofOneNegativeValue(){
+		int a = -5;
+		int b = 10;
 		//	Checks the sum of a postive value and a negative value
 		assertEquals(5, (theCalculator.getSum(a,b)));
 		assertEquals(5, (theCalculator.getSum(b,a)));
+
+	}
+	public void testSumofnegativeValues(){
+		int a = -5;
+		int b = -10;
+		//	Checks the sum of two (2) negative values
+		assertEquals(-15, (theCalculator.getSum(a,b)));
+		assertEquals(-15, (theCalculator.getSum(b,a)));
+
+	}
+	public void testGetSum() {
+
 		
-		a = -5;		
-		b = -10;		
+		int a = -5;
+		int b = -10;
 		//	Checks the sum of two (2) negative values
 		assertEquals(-15, (theCalculator.getSum(a,b)));
 		assertEquals(-15, (theCalculator.getSum(b,a)));
