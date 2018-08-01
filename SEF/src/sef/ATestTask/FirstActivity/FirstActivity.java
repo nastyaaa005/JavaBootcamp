@@ -1,6 +1,7 @@
 package sef.ATestTask.FirstActivity;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 
 public class FirstActivity {
@@ -35,7 +36,24 @@ public class FirstActivity {
 
 		//TODO 2 sort and this employees by salary (from min to max)
 		// TIP - google bubble sort
-		//		System.out.println() result
+
+        for (int size = empCol.size(); size != 1; --size) {
+            for (int i = 0; i < size - 1; i++) {
+                double temp1 = empCol.get(i + 1).getSalary();
+                double temp2 = empCol.get(i).getSalary();
+                if (temp2 > temp1) {
+                    empCol.set(i, temp1);
+                    empCol.set(i + 1, temp2);
+                }
+            }
+        }
+
+
+
+                //		System.out.println() result
+        for(int i = 0; i < empCol.size(); i++) {
+            empCol.get(i).announce();
+        }
 
 
 
@@ -59,9 +77,6 @@ public class FirstActivity {
 		//TODO 4 Create method for total change employee information
 		// for example some employee change his work
 
-
-	}
-
-	
+    }
 	
 }

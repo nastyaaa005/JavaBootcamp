@@ -66,4 +66,7 @@ public class Employee extends Person {
         System.out.println("I work as " + getJobTitle() + " in "  + getCompanyName() + " and my salary is " + getSalary());
     }
 
+    public boolean compareTo(Employee employee) {
+
+    }
 }
