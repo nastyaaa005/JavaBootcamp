@@ -20,7 +20,7 @@ public class AddWholeNum {
 		System.out.println("Addition of Whole Numbers from 1 to 50 = " + total);
 		
 		total = 0;
-		
+
 		// complete the code. write for loop for i
 		total = total + i;
 		}

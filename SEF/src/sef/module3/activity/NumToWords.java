@@ -16,7 +16,7 @@ public class NumToWords {
 		
 		
 				
-		int i = 8;
+		int i = 5;
 		String numText = "";
 
 		switch(i) {
@@ -34,8 +34,24 @@ public class NumToWords {
 		// complete the code.
 		default:
 			numText = "NUMBER " + i;
+
+			System.out.println(numText);
+
 		}
-		
+
+		if(i == 1)
+		numText = "ONE";
+		if(i == 2)
+		numText = "TWO";
+		if(i == 3)
+		numText = "THREE";
+		if(i == 4)
+		numText = "FOUR";
+		if(i == 5)
+		numText = "FIVE";
+		// complete the code.
+
+		numText = "NUMBER " + i;
 		System.out.println(numText);
 		
 	

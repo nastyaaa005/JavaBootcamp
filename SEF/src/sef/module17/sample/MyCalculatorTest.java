@@ -1,6 +1,6 @@
 package sef.module17.sample;
 // Complete Code
-import junit.framework.TestCase;
+import junit.framework.*;
 
 public class MyCalculatorTest extends TestCase {
 
@@ -15,6 +15,8 @@ public class MyCalculatorTest extends TestCase {
 	protected void tearDown() throws Exception {
 		super.tearDown();
 	}
+
+	public void checkSumPositiveNumbers(){}
 
 	public void testGetSum() {
 		

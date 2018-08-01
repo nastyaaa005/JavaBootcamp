@@ -20,23 +20,25 @@ public class FindLargest {
 
 		if (num1 > num2) {
 			System.out.println(num1 + " is largest of two numbers");
-		} else {
+		}
+		else {
 			System.out.println(num2 + " is largest of two numbers");
 		}
+
 
 		// Find Largest of three numbers
 				
 		int i = 1, j = 2, k = 10;
 		
 		if (i > j) {
-			if // complete code
+			if (i > k) // complete code
 			{
 				System.out.println(i + " is Largest of three numbers");
 			} else {
 				System.out.println(k+ " is Largest of three numbers");
 			}
 		} else {
-			if // complete code
+			if (j > k)// complete code
 			{
 				System.out.println(j+ " is Largest of three numbers");
 			} else {

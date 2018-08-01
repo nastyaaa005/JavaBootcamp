@@ -70,5 +70,12 @@ public class Calculator {
 		}
 		return divValue;
 
+		Calculator calc = new Calculator();
+
+		result = calc.divide(4,2);
+
+		System.out.println("Divide is:" + result);
+
+		System.out.println("Divide is:" + calc.subtract(15, 5));
 	}
 }
