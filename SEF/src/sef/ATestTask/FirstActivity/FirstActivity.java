@@ -27,7 +27,8 @@ public class FirstActivity {
 
 		//		System.out.println() result
 		while(itr.hasNext()){
-			System.out.println(itr.next());
+		    Employee e = (Employee) itr.next();
+			System.out.println(e.getEmpId()+ "\t" + e.getJobTitle()+ "\t" + e.getCompanyName() + "\t" + e.getSalary());
 		}
 
 		//TODO 2 sort and this employees by salary (from min to max)
@@ -56,7 +57,7 @@ public class FirstActivity {
 
 		//TODO 4 Create method for total change employee information
 		// for example some employee change his work
-        while (e.jobTitle == "Java Developer"){
+        while (e.jobTitle.equals( "Test Analyst")){
             e.salary = 700.0;
             e.jobTitle = "DevOPs";
             e.companyName = "LV";
