@@ -49,7 +49,7 @@ public class Person {
 
 	// Person's introduction method
 	public void announce() {
-		System.out.println("My name is " + getFirstName() + getSecondName() + " and I am " + getAge() + " years old");
+		System.out.println("My name is " + getFirstName() + " " + getSecondName() + " and I am " + getAge() + " years old");
 	}
 
 }

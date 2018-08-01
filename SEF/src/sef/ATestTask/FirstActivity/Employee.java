@@ -62,8 +62,8 @@ public class Employee extends Person {
     // Employee's introduction method
     @Override
     public void announce() {
-        System.out.println("My name is " + getFirstName() + getSecondName() + " and I am " + getAge() + " years old");
-        System.out.println("I work as " + getJobTitle() + " in "  + getCompanyName());
+        System.out.println("\nMy name is " + getFirstName() + " " + getSecondName() + " and I am " + getAge() + " years old");
+        System.out.println("I work as " + getJobTitle() + " in "  + getCompanyName() + " and my salary is " + getSalary());
     }
 
 }
