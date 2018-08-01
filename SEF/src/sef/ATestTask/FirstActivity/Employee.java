@@ -4,14 +4,13 @@ public class Employee extends Person {
 
     // Attributes
     private int empId;
-    private String jobTitle;
-    private String companyName;
+    private String jobTitle, companyName;
     private double salary;
 
     //TODO 1 create different constructors
 
     // Employee's default constructor
-    public Employee(){
+    public Employee() {
         this.empId = 0;
         this.jobTitle = "Unknown";
         this.companyName = "Unknown";
