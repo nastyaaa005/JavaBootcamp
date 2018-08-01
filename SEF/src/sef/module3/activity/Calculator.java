@@ -31,10 +31,11 @@ public class Calculator {
 
 	private static int subtract(int x, int y) {
 		int diff = 0;
-		if (x > y) {
-			// complete the code
+		if (x < y) {
+			System.out.println("nil");
+
 		} else {
-			// complete the code
+			diff = x - y;
 		}
 
 		return diff;
@@ -54,8 +55,10 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
+			System.out.println("oops one of my number is 0");
 		} else {
 			// complete the code
+			divValue=x/y;
 		}
 		return divValue;
 

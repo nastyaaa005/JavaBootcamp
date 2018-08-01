@@ -5,11 +5,22 @@ package sef.module6.activity;
  */
 public class Person_I {
 
-	//Attributes
+    public String age;
+    public char setname;
+    //Attributes
 	private String name;
 	private int age;
-	
-	//Behavior - write default constructor. Print 'I'm Person_I constructor'
+
+    public Person_I(String sarah_jhonson, int i) {
+    }
+
+    public void setname(String sarah_jhonson) {
+    }
+
+    public void setage(int i) {
+    }
+
+    //Behavior - write default constructor. Print 'I'm Person_I constructor'
 	
 	
 	//Behavior - write parameterized constructor

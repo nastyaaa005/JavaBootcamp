@@ -13,7 +13,9 @@ public class NumToWordsUsingMethod {
 		 * @param args
 		 */
 		public static void main(String[] args) {
-			// complete the code to print text value of 8, 9 and 10
+			printMyWord(3);
+			printMyWord(5);
+			printMyWord(77);
 
 		}
 

@@ -41,7 +41,8 @@ public class Student_P extends Person_P {
 	}
 	
 	// This method is overridden from Person class
-	public void announce(){
+	public void announce(String namme)
+	{
 		System.out.println("I am a Student");
 	}
 		
