@@ -16,9 +16,14 @@ public class ThirdActivity {
         int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
         for (int i = 0; i <= 10; i++) {
-            System.out.println(arr[i]);
+            try {
+                System.out.println(arr[i]);
+            }
+            catch (ArrayIndexOutOfBoundsException arrEx){
+                System.out.println("This should get printed even if there is an exception");
+            }
         }
-        System.out.println("This should get printed even if there is an exception");
+
 
     }
 
@@ -27,6 +32,7 @@ public class ThirdActivity {
         int flag = 0;
         //TODO if name in a list -> set flag=1
         // if at the end flag=0 -> throw the exeption
+
     }
 
     void catchMe(int num1, int num2)
