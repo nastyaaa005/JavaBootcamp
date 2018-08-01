@@ -13,9 +13,6 @@ public class FirstActivity {
         // Task 8
         Person p1 = new Person();
         Person p2 = new Person("name1", "222", 22);
-        // Task 8 test
-        p1.announce();
-        p2.announce();
 
         // create Employee objects
 		Employee e0 = new Employee();

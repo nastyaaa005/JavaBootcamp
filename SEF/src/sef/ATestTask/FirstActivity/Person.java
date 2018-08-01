@@ -17,15 +17,15 @@ public class Person {
 	}
 
 	// Person's parameterized constructor
-	public Person(String firstName, String secondName, int age) {
+	public Person(String firstName, String secondName, int age) throws Numerals_In_Name {
 		// Task 8 first name
 		if (firstName.chars().allMatch(Character::isLetter))
 			this.firstName = firstName;
-		else System.out.println("Non-letter characters in first name");
+		else throw new Numerals_In_Name("Numeral characters in first name");
 		// Task 8 second name
 		if (secondName.chars().allMatch(Character::isLetter))
 			this.secondName = secondName;
-		else System.out.println("Non-letter characters in second name");
+		else throw new Numerals_In_Name("Numeral characters in second name");
 
 		this.age = age;
 	}
@@ -34,22 +34,22 @@ public class Person {
 	public String getFirstName() {
 		return firstName;
 	}
-	public void setFirstName(String firstName) {
+	public void setFirstName(String firstName) throws Numerals_In_Name {
 		// Task 8, first name
 		if (firstName.chars().allMatch(Character::isLetter))
 			this.firstName = firstName;
-		else System.out.println("Non-letter characters in first name");
+		else throw new Numerals_In_Name("Numeral characters in first name");
 	}
 
 	// getter/setter for String secondName
 	public String getSecondName() {
 		return secondName;
 	}
-	public void setSecondName(String secondName) {
+	public void setSecondName(String secondName) throws Numerals_In_Name {
 		// Task 8, second name
 		if (secondName.chars().allMatch(Character::isLetter))
 			this.secondName = secondName;
-		else System.out.println("Non-letter characters in second name");
+		else throw new Numerals_In_Name("Numeral characters in second name");
 	}
 
 	// getter/setter for int age
@@ -63,6 +63,13 @@ public class Person {
 	// Person's introduction method
 	public void announce() {
 		System.out.println("\nMy name is " + getFirstName() + " " + getSecondName() + " and I am " + getAge() + " years old");
+	}
+
+	// Task 8, exception class
+	public class Numerals_In_Name extends Exception {
+		public Numerals_In_Name(String message){
+			super(message);
+		}
 	}
 
 }
