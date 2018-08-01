@@ -8,8 +8,10 @@ public class ThirdActivity {
     public static void main(String[] args) {
         ThirdActivity ta = new ThirdActivity();
         //TODO handle exception on proper way
-        ta.validateUser("Ivan");
+
         ta.catchExeption();
+
+        //ta.validateUser("Ivan");
     }
 
     void catchExeption() {

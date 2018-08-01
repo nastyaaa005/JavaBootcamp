@@ -1,15 +1,26 @@
 package sef.ATestTask.FirstActivity;
 
 
+//TODO 1 Implement Person Attributes
+
 public class Person {
 
-//TODO 1 Implement Person Attributes
+//Atrr
+private String firstName;
+private String secondName;
+
+private int age;
+
+//methods
+public String announce() {
+		return  "My name is " + firstName + " " + secondName + " and my age is " + age;
+		}
 
 	//Behavior - default constructor
 	public Person(){
-		this.firstName="Unknown";
-		this.secondName = "Unknown";
-		this.age = 0;
+		this.firstName="John";
+		this.secondName = "Brown";
+		this.age = 25;
 	}
 
 	//Behavior - parameterized constructor

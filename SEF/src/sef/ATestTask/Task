@@ -10,7 +10,7 @@ Tasks
   2.1 Add different constructors
   2.2 Add getters and setters
   2.3 Add method for introduce of person ->
-  "My name is <name> and i am <age> years old
+  "My name is <name> and i am <age> years old+
    I am work as <jobTitle> in <company>"
 
 3) in file Students

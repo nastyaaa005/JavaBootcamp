@@ -19,17 +19,55 @@ public class SecondActivityTest extends TestCase {
 
 	//Example ->
 	@Test
-	public void testGetSumPositiveValue() {
-		assertEquals(15, (theCalculator.getSum(5, 10)));
-		assertEquals(15, (theCalculator.getSum(10, 5)));
+	public void testSumPositiveValue() {
+		assertEquals(15, (theCalculator.sum(5, 10)));
+		assertEquals(15, (theCalculator.sum(10, 5)));
+	}
+
+	@Test
+	public void testSumNegativeValue() {
+		assertEquals(5, (theCalculator.sum(-5, -10)));
+		assertEquals(5, (theCalculator.sum(-10, -5)));
 	}
 
 	//Example ->
 	@Test
-	public void testGetSumNegativeValue() {
-		assertEquals(5, (theCalculator.getSum(-5, 10)));
-		assertEquals(-5, (theCalculator.getSum(5, -10)));
+	public void testDifPositiveValue() {
+		assertEquals(-5, (theCalculator.dif(5, 10)));
+		assertEquals(5, (theCalculator.dif(10, 5)));
 	}
+
+	@Test
+	public void testDifNegativeValue() {
+		assertEquals(5, (theCalculator.dif(-5, -10)));
+		assertEquals(-5, (theCalculator.dif(-10, -5)));
+	}
+
+	@Test
+	public void testMultPositiveValue() {
+		assertEquals(50, (theCalculator.mult(5, 10)));
+		assertEquals(50, (theCalculator.mult(10, 5)));
+	}
+
+	@Test
+	public void testMultNegativeValue() {
+		assertEquals(50, (theCalculator.mult(-5, -10)));
+		assertEquals(50, (theCalculator.mult(-10, -5)));
+	}
+
+
+	@Test
+	public void testDivPositiveValue() {
+		assertEquals(0.5, (theCalculator.div(5, 10)));
+		assertEquals(2.0, (theCalculator.div(10, 5)));
+	}
+
+	@Test
+	public void testDivNegativeValue() {
+		assertEquals(0.5, (theCalculator.div(-5, -10)));
+		assertEquals(2.0, (theCalculator.div(-10, -5)));
+	}
+
 
 }
 
