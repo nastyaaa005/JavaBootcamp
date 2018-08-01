@@ -13,8 +13,9 @@ public class General {
 	}
 	
 	//The method below is able to accept any class that implements the Strategy int
-	public void setStragey(Strategy strategy){
-		myStrategy = strategy;
+	public void setStragey(Strategy strategy){	strategy: StrategyImplOne;
+
+		myStrategy = strategy; myStrategy;
 	}
 	
 

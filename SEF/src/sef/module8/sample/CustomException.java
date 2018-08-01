@@ -2,6 +2,14 @@ package sef.module8.sample;
 // Needs to be completed
 //Extending from Exception class makes CustomException a Checked Exception
 public class CustomException extends Exception{
+	public static void setAge (int age){
+		if(age<0){
+			throw new IllegalArgumentException("Age cannot be less than 0");
+		} else {
+			System.out.println ("Age is" + age);
+
+		}
+	}
 
 	//1 - Override the toString method of Exception.
 	//This message gets printed as soon as CustomException is thrown.

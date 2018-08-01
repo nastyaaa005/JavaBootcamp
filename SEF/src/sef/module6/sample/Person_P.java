@@ -38,7 +38,13 @@ public class Person_P {
 
 	// setter for int age
 	public void setAge(int age) {
-		this.age = age;
+
+		if (age > 0) {
+			this.age = age;
+		}
+		else {
+			System.out.println("Age cannot be less than 0");
+		}
 	}	
 	
 	// This method is overloaded by Student sub class

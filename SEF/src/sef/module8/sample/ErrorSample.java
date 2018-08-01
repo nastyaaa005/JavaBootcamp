@@ -11,10 +11,16 @@ public class ErrorSample {
 	//it happens infinite times because there is no exit condition
 	//At one point in time, JVM would give up and show StackOverflowError
 	public static void infinity(){
-		//1 - Print a message
-	
-		
-		//2 - Call infinity()
+		try {
+			//1 - Print a message
+			System.out.println("Infinity and beyound");
+
+			//2 - Call infinity()
+			infinity();
+		} catch (StackOverflowError e){
+			System.out.println("It is StackOverflowError");
+
+		}
 	
 	}
 }

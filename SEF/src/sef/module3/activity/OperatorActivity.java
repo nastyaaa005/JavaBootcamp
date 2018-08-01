@@ -20,6 +20,16 @@ public class OperatorActivity {
 		
 		// Print result
 		System.out.println("Difference = " + result);
+
+		result = i+j;
+				System.out.println("Add is=" + result);
+
+		result = i / j;
+				System.out.println("Distride =" + result);
+
+		result = i*j;
+				System.out.println("Mult is=" +result);
+				
 		
 		// Add numbers
 		
