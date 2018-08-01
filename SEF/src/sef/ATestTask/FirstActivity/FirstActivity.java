@@ -42,10 +42,8 @@ public class FirstActivity {
 		//		System.out.println() result
         Person p = new Person("Fn", "Sn", 22);
         p.announce();
-        Person P = new Student();
+        p = (Student)p;
         p.announce();
-        //Employee pse = (Employee)ps;
-        //pse.announce();
 
 
 		//TODO 4 Create method for total change employee information
