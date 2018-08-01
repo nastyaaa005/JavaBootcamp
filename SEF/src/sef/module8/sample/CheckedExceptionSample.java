@@ -16,8 +16,10 @@ public class CheckedExceptionSample {
 			//else it would not compile since
 			//FilenotFoundException is a checked exception. 
 			//1 - Instantiate reader and pass fileName as a parameter
+			reader = new FileReader(fileName);
 			
-			
+		} catch (FileNotFoundException e) {
+
 		}
 		//2 - catch FileNotFoundException 
 	}

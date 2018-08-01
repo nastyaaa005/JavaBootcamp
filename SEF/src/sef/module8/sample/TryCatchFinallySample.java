@@ -3,11 +3,13 @@ package sef.module8.sample;
 public class TryCatchFinallySample {
 
 	//The following String variable is declared at class level. It'd automatically be initialized to null.
-	String str;
+	static String str;
 	
 	public static void main(String[] args) {
 		//1 - Create an instance of TryCatchFinallySample and call catchMeIfYouCan()
-		
+		try {
+			catchMeIfYouCan(str);
+		}
 	}
 	
 	public void catchMeIfYouCan()

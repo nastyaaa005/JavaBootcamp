@@ -9,16 +9,16 @@ public static void main(String[] args) {
 	obj.catchMeIfYouCan();
 }
 
-void catchMeIfYouCan()
-{
-	int [] arr={0,1,2,3,4,5,6,7,8,9};
+void catchMeIfYouCan() {
+	try {
+		int [] arr={0,1,2,3,4,5,6,7,8,9};
 	
-	for(int i=0;i<=10;i++)
-	{
-		System.out.println(arr[i]);
+		for(int i=0;i<=10;i++) {
+			System.out.println(arr[i]);
+		}
+	} catch (Exception e) {
+		System.out.println("Exception occurred " + e.getMessage());
 	}
-	
-	
 	
 	System.out.println("This should get printed even if there is an exception");
 	

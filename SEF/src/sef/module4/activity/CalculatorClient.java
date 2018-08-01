@@ -4,11 +4,13 @@ package sef.module4.activity;
  * @author
  *
  */
+
 public class CalculatorClient {
 
 	/**
 	 * @param args
 	 */
+
 	public static void main(String[] args) {
 		
 		/*Instantiate Normal Calculator. Note that CALC_TYPE_NORMAL is a public static
@@ -28,10 +30,8 @@ public class CalculatorClient {
 		result = normalCalc.multiply(mul);
 		System.out.println("2) Multiplication result is " + result); 
 		
-
+        Calculator calc = new Calculator();
+        result = calc.divide(4, 2);
+        System.out.println("3) Divide result is " + result);
 	}
-
-
-	
-
 }

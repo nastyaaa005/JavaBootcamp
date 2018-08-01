@@ -6,10 +6,9 @@ public class Person {
 
 	//Attributes
 	private String name;
-	
-	
+
 	//Behavior
-	public Person(String name){
+	public Person(String name) {
 		this.name = name;
 	}
 	
@@ -20,8 +19,7 @@ public class Person {
 		this.name = name;
 	}
 
-	public String introduce(){
+	public String introduce() {
 		return "My name is " + name;
 	}
-	
 }

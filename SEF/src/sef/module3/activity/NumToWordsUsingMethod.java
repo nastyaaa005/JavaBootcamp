@@ -8,13 +8,14 @@ package sef.module3.activity;
  *
  */
 public class NumToWordsUsingMethod {
-
 		/**
 		 * @param args
 		 */
 		public static void main(String[] args) {
 			// complete the code to print text value of 8, 9 and 10
-
+			printMyWord(8);
+			printMyWord(9);
+			printMyWord(10);
 		}
 
 		private static void printMyWord(int i) {

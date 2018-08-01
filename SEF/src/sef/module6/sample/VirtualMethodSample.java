@@ -17,6 +17,6 @@ public class VirtualMethodSample {
 	}
 	
 	public static void rollCall(Person_P temp){
-			temp.announce();
+		temp.announce();
 	}
 }

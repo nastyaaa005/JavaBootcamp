@@ -17,16 +17,17 @@ public class OperatorActivity {
 		
 		// Subtract numbers
 		int result = i-j;
+
+		// Add numbers
+		int result2 = i + j;
+		int result3 = i * j;
+		int result4 = i / j;
 		
 		// Print result
 		System.out.println("Difference = " + result);
-		
-		// Add numbers
-		
-		
-		// Print result
-		
-		
+		System.out.println("Addition = " + result2);
+		System.out.println("Multiplication = " + result3);
+		System.out.println("Division = " + result4);
 	}
 
 }

@@ -23,7 +23,6 @@ public class Calculator {
 	
 	}
 
-
 	private static int add(int x, int y) {
 		int sum = x + y;
 		return sum;
@@ -33,8 +32,10 @@ public class Calculator {
 		int diff = 0;
 		if (x > y) {
 			// complete the code
+			diff = x - y;
 		} else {
 			// complete the code
+
 		}
 
 		return diff;
@@ -54,8 +55,10 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
+			System.out.println("Ops! Can't do it.");
 		} else {
 			// complete the code
+			divValue = x / y;
 		}
 		return divValue;
 

@@ -9,7 +9,6 @@ package sef.module4.activity;
  */
 public class Calculator {
 
-	
 	private String calculatorType;
 	public static final String CALC_TYPE_BASIC = "Basic";
 	
@@ -45,7 +44,6 @@ public class Calculator {
 		} else {
 			diff = y - x;
 		}
-
 		return diff;
 	}
 
@@ -57,7 +55,6 @@ public class Calculator {
 			temp = temp * numbers[i];
 		}
 		return temp;
-
 	}
 
 	// Divide
@@ -69,6 +66,5 @@ public class Calculator {
 			divValue = x / y;
 		}
 		return divValue;
-
 	}
 }

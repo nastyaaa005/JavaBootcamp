@@ -1,6 +1,6 @@
 package sef.module17.sample;
 // Complete Code
-import junit.framework.TestCase;
+import junit.framework.*;
 
 public class MyCalculatorTest extends TestCase {
 
@@ -16,22 +16,38 @@ public class MyCalculatorTest extends TestCase {
 		super.tearDown();
 	}
 
+//	public void testCheckPositiveSum() {
+//		int a = 5;
+//		int b = 10;
+//		//	Checks the sum of two (2) positive values
+//		assertEquals(15, (theCalculator.getSum(a,b)));
+//		assertEquals(15, (theCalculator.getSum(b,a)));
+//	}
+//
+//	public void testSumOfOneNegativeValue() {
+//		int a = -5;
+//		int b = 10;
+//		//	Checks the sum of a postive value and a negative value
+//		assertEquals(5, (theCalculator.getSum(a,b)));
+//		assertEquals(5, (theCalculator.getSum(b,a)));
+//	}
+
 	public void testGetSum() {
 		
 		int a = 5;
-		int b = 10;			
+		int b = 10;
 		//	Checks the sum of two (2) positive values
 		assertEquals(15, (theCalculator.getSum(a,b)));
-		assertEquals(15, (theCalculator.getSum(b,a)));		
+		assertEquals(15, (theCalculator.getSum(b,a)));
 
-		a = -5;		
-		b = 10;		
+		a = -5;
+		b = 10;
 		//	Checks the sum of a postive value and a negative value
 		assertEquals(5, (theCalculator.getSum(a,b)));
 		assertEquals(5, (theCalculator.getSum(b,a)));
 		
-		a = -5;		
-		b = -10;		
+		a = -5;
+		b = -10;
 		//	Checks the sum of two (2) negative values
 		assertEquals(-15, (theCalculator.getSum(a,b)));
 		assertEquals(-15, (theCalculator.getSum(b,a)));
