@@ -32,6 +32,12 @@ public class ThirdActivity {
         int flag = 0;
         //TODO if name in a list -> set flag=1
         // if at the end flag=0 -> throw the exeption
+        for (int i = 0; i < 4; i++) {
+            if (name == validUsers[i]) {
+                flag = 1;
+                break;
+            }
+        }
 
     }
 
