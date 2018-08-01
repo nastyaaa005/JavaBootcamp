@@ -3,6 +3,7 @@ package sef.ATestTask.FirstActivity;
 public class FirstActivity {
 
 	public static void main(String[] args) {
+		System.out.println("test666666677767676");
 
 		//TODO 1 Create collection of employee (more than 5) list or map
 		//		System.out.println() result
