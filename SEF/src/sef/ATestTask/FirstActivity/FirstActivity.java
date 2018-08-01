@@ -42,8 +42,8 @@ public class FirstActivity {
 		//		System.out.println() result
         Person p = new Person("Fn", "Sn", 22);
         p.announce();
-        Student ps = (Student)p;
-        ps.announce();
+        Person P = new Student();
+        p.announce();
         //Employee pse = (Employee)ps;
         //pse.announce();
 
