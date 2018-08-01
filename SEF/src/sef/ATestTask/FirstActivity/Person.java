@@ -4,12 +4,14 @@ package sef.ATestTask.FirstActivity;
 public class Person {
 
 //TODO 1 Implement Person Attributes
-
+      public String firstName;
+      public String secondName;
+      public double age;
 	//Behavior - default constructor
 	public Person(){
-		this.firstName="Unknown";
-		this.secondName = "Unknown";
-		this.age = 0;
+		this.firstName="carls";
+		this.secondName = "jameson";
+		this.age = 20;
 	}
 
 	//Behavior - parameterized constructor
