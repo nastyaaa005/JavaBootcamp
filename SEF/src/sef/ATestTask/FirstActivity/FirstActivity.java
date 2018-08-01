@@ -1,6 +1,7 @@
 package sef.ATestTask.FirstActivity;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class FirstActivity {
 
@@ -36,14 +37,23 @@ public class FirstActivity {
 		// TIP - google bubble sort
 		//		System.out.println() result
 
+
+
 		//TODO 3 create instance of the Person ->
 		// than make them Student
 		// than make them Employee
 		//		System.out.println() result
-        Person p = new Person("Fn", "Sn", 22);
+
+        /*Person p = new Person("Fn", "Sn", 22);
         p.announce();
-        p = (Student)p;
-        p.announce();
+        Student s = (Student) p;
+        s.announce();
+*/
+        // Sample reference casting
+        //Person tempPerson = s; // convert student to person
+        //tempPerson.announce();
+        //Student tempStudent = (Student)tempPerson; // convert person to student
+        //tempStudent.announce();
 
 
 		//TODO 4 Create method for total change employee information
