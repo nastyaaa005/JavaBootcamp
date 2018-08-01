@@ -17,7 +17,8 @@ public class ThirdActivity {
 
         for (int i = 0; i <= 10; i++) {
             System.out.println(arr[i]);
-        }
+        }catch (ArrayIndexOutOfBoundsException e){ System.out.println("Error (array out of bounds)");}
+        //e.getMessage();
         System.out.println("This should get printed even if there is an exception");
 
     }
@@ -27,6 +28,7 @@ public class ThirdActivity {
         int flag = 0;
         //TODO if name in a list -> set flag=1
         // if at the end flag=0 -> throw the exeption
+
     }
 
     void catchMe(int num1, int num2)
@@ -36,7 +38,11 @@ public class ThirdActivity {
             System.out.println("The result is :" + result);
 
             //TODO prints a message "Thank you for using this program." always
-            System.out.println("Thank you for using this program.");
+        try {
+            int result = num1 / num2;
+            System.out.println("The result is :" + result);
+        } catch(ArithmeticException a){System.out.println("Exception occured, exception "+a.getMessage());}
+        finally {System.out.println("Thank you for using this program."); }
 
     }
 }
