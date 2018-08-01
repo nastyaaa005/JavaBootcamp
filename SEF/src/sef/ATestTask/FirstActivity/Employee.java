@@ -64,7 +64,7 @@ public class Employee extends Person {
     @Override
     public void announce() {
         System.out.println("My name is " + getFirstName() + getSecondName() + " and I am " + getAge() + " years old");
-        System.out.println("I work as " + getTitle() + " in "  + getCompany());
+        System.out.println("I work as " + getJobTitle() + " in "  + getCompanyName());
     }
 
 }
