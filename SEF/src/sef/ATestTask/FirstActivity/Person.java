@@ -4,7 +4,9 @@ package sef.ATestTask.FirstActivity;
 public class Person {
 
 //TODO 1 Implement Person Attributes
-
+private String firstName;
+private String secondName;
+private int age;
 	//Behavior - default constructor
 	public Person(){
 		this.firstName="Unknown";
@@ -24,7 +26,10 @@ public class Person {
 		return firstName;
 	}
 
-	public void setFirstName(String firstName) {
+	public void setFirstName(String firstName)  {
+
+				if (firstName.matches(".*\\d+.*")) throw new IllegalArgumentException("Name should not contain numbers");
+
 		this.firstName = firstName;
 	}
 
@@ -42,8 +47,15 @@ public class Person {
 		return secondName;
 	}
 
-	public void setSecondName(String secondName) {
+	public void setSecondName(String secondName)  {
+
+			if (secondName.matches(".*\\d+.*"))  throw new IllegalArgumentException("Name should not contain numbers");
+
 		this.secondName = secondName;
 	}
-}
 
+public String introduce(){
+
+	return   "My name is "+firstName+" "+secondName+" and i am "+age+" years old";
+}
+}
