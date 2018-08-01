@@ -6,7 +6,7 @@ public class Person {
 //TODO 1 Implement Person Attributes
       public String firstName;
       public String secondName;
-      public double age;
+      public int age;
 	//Behavior - default constructor
 	public Person(){
 		this.firstName="carls";

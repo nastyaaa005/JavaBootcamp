@@ -1,12 +1,15 @@
 package sef.ATestTask.FirstActivity;
-import java.util..*;
+import java.util.*;
+
+import static java.lang.System.*;
+
 public class FirstActivity {
 
 	public static void main(String[] args) {
 
 		//TODO 1 Create collection of employee (more than 5)
 		//		System.out.println() result
-		Map<Integer,Employee> emap=new HashMap();
+		HashMap emap=new HashMap();
              Employee employee=new Employee();
              Employee employee1=new Employee(1, "developer", "accenture",150.0);
 		     Employee employee2=new Employee(2, "tester", "accenture",160.0);
@@ -26,7 +29,8 @@ public class FirstActivity {
 
 		while(Itr.hasNext()){
 			Employee e = (Employee) Itr.next();
-			System.out.println(e.getEmpId()+"\t" +e.getCompanyName()+"\t" +e.getJobTitle()+"\t", +e.getSalary()+"\t");
+			System.out.println(e.getEmpId()+"\t" + e.getCompanyName()+"\t" +e.getJobTitle()+"\t" +e.getSalary()+"\t");
+
 		}
 
 		//TODO 2 sort and this employees by salary (from min to max)
@@ -41,14 +45,28 @@ public class FirstActivity {
 
 		Student s = new Student();
 
-		Employee e =new Employee(1, "analyst", "accentur", 150);
+		Employee e =new Employee(1, "analyst", "accenture", 150);
 
-		System.out.println('\n \n ******\n \n');
-		System.out.println("My Name Is " +p.firstName + " " p.secondName + "\n My Age is" +s.age );
-
+		System.out.println("\n \n ******\n \n");
+		System.out.println("My Name Is " +p.firstName + " " + p.secondName + "\n My Age is" + p.age );
+        System.out.println("\n \n ******\n \n");
+        System.out.println("My Name Is " +s.name + "\n" + "My Student Id is " + s.studentId + "\n" + "My Age Is" +s.age);
+        System.out.println("\n \n ******\n \n");
+		System.out.println("My Employee Id id " +e.empId + "\n" + "My Job Title is " + e.jobTitle +
+                "\n" + "My Company Name is" +e.CompanyName + "/n"+ "My salary is" + e.salary);
 		//TODO 4 Create method for total change employee information
 		// for example some employee change his work
+if (e.jobTitle.equals("analyst")){
+	e.salary = 170;
+	e.jobTitle = "analyst";
+	e.CompanyName = "accenture";
+	e.empId = 0001;
+	System.out.println("\n \n ******\n \n");
+	System.out.println("The New Employee Details Are " + "\n");
+	System.out.println("My Employee Id is " + e.empId + "\n" + "My Job Title is " + e.jobTitle + "\n" +
+            "I work in Company" + e.CompanyName + "\n" + "My Salary is " +e.salary);
 
+}
 
 	}
 

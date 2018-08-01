@@ -4,20 +4,20 @@ public class Employee extends Person {
 
     public int empId;
     public String jobTitle;
-    public String companyName;
+    public String CompanyName;
     public double salary;
 
     //TODO 1 create different constructors
     public Employee(){
      this.empId=1234;
      this.jobTitle="java developer";
-     this.companyName="accenture";
+     this.CompanyName="accenture";
      this.salary=20000;
     }
  public Employee(int empId, String jobTitle, String companyName, double salary){
         this.empId=empId;
         this.jobTitle=jobTitle;
-        this.companyName=companyName;
+        this.CompanyName=companyName;
         this.salary=salary;
  }
     //TODO 2 add getters and setters
@@ -25,7 +25,7 @@ public int getEmpId(){
         return empId;
 }
 public void setEmpId(int empId){
-        this.empId=1234;
+        this.empId=empId;
 }
 
 public String getJobTitle(){
@@ -34,11 +34,11 @@ public String getJobTitle(){
 public void setJobTitle(String jobTitle){
         this.jobTitle= jobTitle;
 }
-public String getCompanyName(String companyName){
-        return companyName;
+public String getCompanyName(){
+        return CompanyName;
 }
-public void setCompanyName(){
-        this.companyName=companyName;
+public void setCompanyName(String companyName){
+        this.CompanyName=companyName;
 }
 public double getSalary(){
         return salary;
