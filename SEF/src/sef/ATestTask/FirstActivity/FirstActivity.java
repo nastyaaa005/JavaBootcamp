@@ -12,10 +12,10 @@ public class FirstActivity {
 		Map<Integer,Employee> emap= new HashMap();
 		Employee emp1 = new Employee(1,"Developer", "Accenture", 100.0);
 		Employee emp2 = new Employee(2,"Tester", "Wipro", 200.0);
-		Employee emp3 = new Employee(3," Test Analyst ", " Deloitte ", 400.0);
+		Employee emp3 = new Employee(3," Test Analyst ", " Deloitte ", 340.0);
 		Employee emp4 = new Employee(4," Java Developer ", " Google ", 300.0);
 		Employee emp5 = new Employee(5," Test Automation ", " IBM ", 400.0);
-		Employee emp6 = new Employee(6," Senior Test Analyst ", " Yahoo ", 500.0);
+		Employee emp6 = new Employee(6," Senior Test Analyst ", " Yahoo ", 50.0);
 		emap.put(1,emp1);
 		emap.put(2,emp2);
 		emap.put(3,emp3);
@@ -33,8 +33,14 @@ public class FirstActivity {
 
 		//TODO 2 sort and this employees by salary (from min to max)
 		// TIP - google bubble sort
+        double arrayList[]={emp1.getSalary(),emp2.getSalary(),emp3.getSalary(),emp4.getSalary(),emp5.getSalary(),emp6.getSalary()};
 
 		//		System.out.println() result
+
+        System.out.println("\n \n *********************************************************** \n \n");
+        System.out.println(" \n Final Result " + Arrays.toString(BB(arrayList)));
+
+
 
 		//TODO 3 create instance of the Person ->
             Person p = new Person();
@@ -71,6 +77,21 @@ public class FirstActivity {
 
 	}
 
-	
-	
+    public static double[] BB(double[] arr){
+        double temp;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 1; j < arr.length; j++) {
+                if (arr[j - 1] > arr[j]) {
+                    temp = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+            System.out.println("Iteration" + (i + 1) + " Result:  " + Arrays.toString(arr));
+        }
+        return arr;
+    }
+
+
+
 }
