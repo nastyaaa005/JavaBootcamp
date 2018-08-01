@@ -34,7 +34,7 @@ public class Student_A extends Person_A {
 	
 	public String getName(){
 		return name;
-	}
+	} //from abstract class
 	
 	public void setName(String name){
 		this.name="<S>"+name;

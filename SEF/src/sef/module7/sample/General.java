@@ -5,7 +5,7 @@ public class General {
 	//Use interfaces instead of actual classes.  This way your code does not get
 	//locked down to any specific implementation of an interface. erface
 
-	private Strategy myStrategy;
+	private Strategy myStrategy; // strategy ir interfeiss
 	private String name;
 	
 	public General(String name){
@@ -15,7 +15,7 @@ public class General {
 	//The method below is able to accept any class that implements the Strategy int
 	public void setStragey(Strategy strategy){
 		myStrategy = strategy;
-	}
+	} // privātajam interfeisam piešķir to implementāciju kuru padod
 	
 
 	//The actual behavior of the method 'execute' will depend on what is the actual implementation
@@ -23,6 +23,6 @@ public class General {
 	//modifiable during runtime
 	public void executeStrategy(){
 		System.out.print("General " + name + " executing his strategy...");
-		myStrategy.execute();
+		myStrategy.execute(); //atšķirsies pēc tā kas izmantots kā myStrategy
 	}
 }

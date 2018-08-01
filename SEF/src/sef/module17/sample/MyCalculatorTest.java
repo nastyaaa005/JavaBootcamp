@@ -1,7 +1,7 @@
 package sef.module17.sample;
 // Complete Code
-import junit.framework.TestCase;
-
+import junit.framework.*;
+import java.text.DecimalFormat;
 public class MyCalculatorTest extends TestCase {
 
 	private MyCalculator theCalculator;
@@ -16,110 +16,119 @@ public class MyCalculatorTest extends TestCase {
 		super.tearDown();
 	}
 
-	public void testGetSum() {
-		
-		int a = 5;
-		int b = 10;			
-		//	Checks the sum of two (2) positive values
+	public void testCheckSumPositiveNumbers()
+	{
+		int a=5;
+		int b=10;
 		assertEquals(15, (theCalculator.getSum(a,b)));
-		assertEquals(15, (theCalculator.getSum(b,a)));		
+		assertEquals(15, (theCalculator.getSum(b,a)));
+	}
 
-		a = -5;		
-		b = 10;		
+	public void testCheckSumOneNegativeValue()
+	{
+		int a = -5;
+		int b = 10;
 		//	Checks the sum of a postive value and a negative value
 		assertEquals(5, (theCalculator.getSum(a,b)));
-		assertEquals(5, (theCalculator.getSum(b,a)));
-		
-		a = -5;		
-		b = -10;		
-		//	Checks the sum of two (2) negative values
-		assertEquals(-15, (theCalculator.getSum(a,b)));
-		assertEquals(-15, (theCalculator.getSum(b,a)));
+		assertEquals("Sum should be 5",5, (theCalculator.getSum(b,a)));
+
 	}
 
-	public void testGetDifference() {
+	public void testCheckSumNegativeValues() {
 		
-		int a = 3;
-		int b = 2;		
-		//	Checks if b is lesser than a
-		assertEquals(1, (theCalculator.getDifference(a,b)));		
-		//	Checks if b is greater than a
-		assertEquals(-1, (theCalculator.getDifference(b,a)));
+		int a = -5;
+		int b = -10;
+		int result=-15;
+		assertEquals(result, (theCalculator.getSum(a,b)));
+		assertEquals(result, (theCalculator.getSum(b,a)));
+		assertTrue((theCalculator.getSum(a,b))==result);
 
-		a = 5;
-		b = -4;
-		//	Checks if negative value is subtracted from positive value
-		assertEquals(9, (theCalculator.getDifference(a,b)));		
-		//	Checks if positive value is subtracted from negative value
-		assertEquals(-9, (theCalculator.getDifference(b,a)));	
-	
-		a = -10;
-		b = -5;
-		//	Checks if negative value is subtracted from negative value: a > b
-		assertEquals(-5, (theCalculator.getDifference(a,b)));		
-		//	Checks if negative value is subtracted from negative value: b < a
-		assertEquals(5, (theCalculator.getDifference(b,a)));			
 	}
 
-	public void testGetProduct() {
-		
-		double a = 5;
-		double b = 10;			
-		//	Checks the product of two (2) positive values
-		assertEquals(50, (theCalculator.getProduct(a,b)),0);
-		assertEquals(50, (theCalculator.getProduct(b,a)),0);		
+	public void testCheckGetDifferencePositiveValues()
+	{
+		int a=10;
+		int b=5;
 
-		a = -5;		
-		b = 10;		
-		//	Checks the product of a postive value and a negative value
-		assertEquals(-50, (theCalculator.getProduct(a,b)),0);
-		assertEquals(-50, (theCalculator.getProduct(b,a)),0);
-		
-		a = -3;		
-		b = -10;		
-		//	Checks the product of two (2) negative values
-		assertEquals(30, (theCalculator.getProduct(a,b)),0);
-		assertEquals(30, (theCalculator.getProduct(b,a)),0);
+		assertEquals(5,theCalculator.getDifference(a,b));
+		assertEquals(-5,theCalculator.getDifference(b,a));
 	}
 
-	public void testGetQuotient() {
+	public void testCheckGetDifferenceOneNegativeValues()
+	{
+		int a=-10;
+		int b=15;
 
-		double a = 10;	double b = 5;		
-		//	Checks if b is lesser than a
-		assertEquals(2, (theCalculator.getQuotient(a,b)),0);		
-		//	Checks if b is greater than a
-		assertEquals(0.5, (theCalculator.getQuotient(b,a)),0);
+		assertEquals(-25,theCalculator.getDifference(a,b));
+		assertEquals(25,theCalculator.getDifference(b,a));
+	}
+	public void testCheckGetDifferenceNegativeValues()
+	{
+		int a=-10;
+		int b=-15;
 
-		a = 9;	b = -3;
-		//	Checks if positive value is divided with negative value
-		assertEquals(-3, (theCalculator.getQuotient(a,b)),0);		
-		//	Checks if negative value is divided with positive value
-		assertEquals(-0.33, (theCalculator.getQuotient(b,a)),0.007);	
-	
-		a = -10;	b = -5;
-		//	Checks if negative value is divided with negative value: a > b
-		assertEquals(2, (theCalculator.getQuotient(a,b)),0);		
-		//	Checks if negative value is divided with negative value: b < a
-		assertEquals(0.5, (theCalculator.getQuotient(b,a)),0);			
-		}
-		
-		public void testThrowException(){
-			
-			try {
+		assertEquals(5,theCalculator.getDifference(a,b));
+		assertEquals(-5,theCalculator.getDifference(b,a));
+	}
+	public void testProductOfPositiveValues(){
+		int a=5;
+		int b=2;
 
-				theCalculator.getSum(2, 1);
-				theCalculator.getDifference(3, 3);
-				theCalculator.getProduct(0, 1);
-				theCalculator.getQuotient(1, 0);
-				new MyCalculator();
-					
-			} catch (Exception e) {
-				fail();
-			}
-			  catch (Error e) {
-				fail();
-			}
-		}
+		assertEquals(10.0,theCalculator.getProduct(a,b));
+		assertEquals(10.0,theCalculator.getProduct(b,a));
+	}
+	public void testProductOfOneNegativeValue(){
+		int a=5;
+		int b=-2;
+		assertEquals(-10.0,theCalculator.getProduct(a,b));
+		assertEquals(-10.0,theCalculator.getProduct(b,a));
+	}
+	public void testProductOfNegativeValues(){
+		double a=-2.5;
+		double b=-2;
+		assertEquals(5.0,theCalculator.getProduct(a,b));
+		assertEquals(5.0,theCalculator.getProduct(b,a));
+	}
+
+	public void testProductOfNegativeValuesFloat(){
+		float a=-2.5f;
+		float b=-2f;
+		double result=5.0;
+		assertEquals(result,Double.parseDouble(new DecimalFormat("##.#").format(theCalculator.getProduct(a,b))));
+		assertEquals(result,Double.parseDouble(new DecimalFormat("##.#").format(theCalculator.getProduct(b,a))));
+		assertEquals(result,(theCalculator.getProduct(b,a)),1);
+	}
+
+	public void testQuotientOfPositiveValues(){
+		double a=6;
+		double b=3;
+
+		assertEquals(2.0,theCalculator.getQuotient(a,b));
+		assertEquals(0.5,theCalculator.getQuotient(b,a));
+	}
+	public void testPOuotientOfOneNegativeValue(){
+		double a=-6;
+		double b=3;
+		assertEquals(-2.0,theCalculator.getQuotient(a,b));
+		assertEquals(-0.5,theCalculator.getQuotient(b,a));
+	}
+	public void testQuotientOfNegativeValues(){
+		double a=-6;
+		double b=-3;
+		assertEquals(2.0,theCalculator.getQuotient(a,b));
+		assertEquals(0.5,theCalculator.getQuotient(b,a));
+	}
+
+	public void testGetQuotientOfZeroValue()
+	{
+		// pārbauda vai atbilstošā error message ir parādīta gadījumā ja notiek dalīšāna ar nulli
+		double a=0; double b=6.6;
+		assertEquals(0.0,theCalculator.getQuotient(a,b));
+		try {
+			assertEquals(0.0, theCalculator.getQuotient(b, a));
+		}catch(IllegalArgumentException e){assertEquals
+				("You re not allowed to divide by zero", e.getMessage());}
+	}
 	}
 
 

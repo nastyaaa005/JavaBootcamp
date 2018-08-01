@@ -4,7 +4,7 @@ class MyCalculator {
 	
 	public int getSum(int a, int b) {
 		
-		return a + b;
+		return a + b; //covered
 	}
 	
 	public int getDifference(int a, int b){
@@ -16,6 +16,11 @@ class MyCalculator {
 	}
 	
 	public double getQuotient(double a, double b){
-		return a / b;
+
+		if (b==0){
+
+			throw new IllegalArgumentException("You re not allowed to divide by zero");
+		}
+		 else {return a / b;}
 	}
 }

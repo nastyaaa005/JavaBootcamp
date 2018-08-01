@@ -15,8 +15,9 @@ public class VirtualMethodSample {
 		rollCall(p);
 		rollCall(s);
 	}
-	
+	// ja ir klases kas paplašina person P tad arī tās var padot rollCall metodei
+	//piemēram student S
 	public static void rollCall(Person_P temp){
 			temp.announce();
-	}
-}
+	}}
+

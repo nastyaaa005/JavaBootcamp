@@ -9,7 +9,6 @@ public class ClassInstanceSample {
 		//Object instance creation using 'new' and passing parameters to constructors
 		Person him = new Person("John Doe");
 		Person her = new Person("Jane Doe");
-		
 		//Access an object's member method to invoke a behavior
 		System.out.println(him.introduce());
 		System.out.println(her.introduce());
@@ -18,7 +17,11 @@ public class ClassInstanceSample {
 		him.setName("John");
 		String name = him.getName();
 		System.out.println(name);
-		
+		Person Janis=new Person("Janis",24);
+		System.out.println(Janis.hello());
+		him.setAge(100);
+		System.out.println(him.hello());
+
 		//This will cause the object pointed by 'her' to be garbage collected
 		//since there are no more remaining references to that object
 		her = null;

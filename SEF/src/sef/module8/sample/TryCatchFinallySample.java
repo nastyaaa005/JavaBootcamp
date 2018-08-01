@@ -7,7 +7,8 @@ public class TryCatchFinallySample {
 	
 	public static void main(String[] args) {
 		//1 - Create an instance of TryCatchFinallySample and call catchMeIfYouCan()
-		
+		TryCatchFinallySample tc= new TryCatchFinallySample();
+		tc.catchMeIfYouCan();
 	}
 	
 	public void catchMeIfYouCan()
@@ -23,7 +24,7 @@ public class TryCatchFinallySample {
 		
 		//Lets see how do we handle this
 		//2 - put the above print statement inside a try catch block 
-		
+		try {System.out.println(str.toUpperCase());} catch (NullPointerException e){ System.out.println("String is not defined");}
 		
 		
 		

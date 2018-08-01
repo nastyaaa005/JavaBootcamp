@@ -37,9 +37,23 @@ public class QueueSample {
 		// Checking what item is first in line without removing it
 		// If the queue is empty a null value will be returned.
 		System.out.println("peek: " + queue.peek());
+		print(queue);
 
+		queue.add("new item 1");
+		queue.add("new item 2");
+		queue.add("new item 3");
+
+		print(queue);
 	}
 
+	public  void print(Queue q)
+	{
+		System.out.println("This is the full queue ");
+		for(Object o:q)
+		{
+			System.out.println(o);
+		}
+	}
 	public static void main(String[] args) {
 		new QueueSample().queueExample();
 	}

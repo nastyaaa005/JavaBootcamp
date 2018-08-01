@@ -4,6 +4,7 @@ public class CustomExceptionSample {
 
 	//static setAge(int age) which throws CustomException  
 	public static void setAge(int age) throws CustomException{
+		if (age<0)
 		//1 - Check if age<0. if yes, then throw CustomException
 		{
 			//Creating and throwing an instance of CustomException
@@ -16,7 +17,13 @@ public class CustomExceptionSample {
 			//Since CustomException is a checked exception, it's mandatory to call setAge method
 			//inside a try catch block. Else the code would not compile.
 			//2 - call setAge method with -1 as its parameter and surround this with a try catch block
-			
-		
+
+		try {
+			setAge(-1);
+		} catch (CustomException e) {
+			System.out.println(e.toString());
+			System.out.println(e.getMessage());
+		}
+
 	}
 }

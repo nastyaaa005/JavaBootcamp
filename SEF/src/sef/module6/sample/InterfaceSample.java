@@ -10,7 +10,7 @@ public class InterfaceSample {
 		
 		l.move();
 		b.move();
-		
+		l.sleeps();
 
 	}
 

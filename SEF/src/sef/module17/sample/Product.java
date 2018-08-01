@@ -6,7 +6,7 @@ public class Product implements Serializable {
 	
 	private String description;
 	private Double price;
-	 
+	private String name;
 	public String getDescription() {
 		return description;
 	}
@@ -25,9 +25,17 @@ public class Product implements Serializable {
 
 	public String toString() {
         StringBuffer buffer = new StringBuffer();
-        buffer.append("Description: " + description + ";");
+        buffer.append("Name: "+name);
+        buffer.append(" Description: " + description + ";");
         buffer.append("Price: " + price);
         return buffer.toString();
     }
-	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name=name;
+	}
 }

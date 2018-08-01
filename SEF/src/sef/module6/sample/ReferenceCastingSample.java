@@ -14,5 +14,6 @@ public class ReferenceCastingSample {
 		tempPerson.announce();
 		Student_P tempStudent = (Student_P)tempPerson; // convert person to student
 		tempStudent.announce();
+
 	}
 }

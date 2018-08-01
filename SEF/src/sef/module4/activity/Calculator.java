@@ -11,7 +11,7 @@ public class Calculator {
 
 	
 	private String calculatorType;
-	public static final String CALC_TYPE_BASIC = "Basic";
+	public static final String CALC_TYPE_BASIC = "Basic";  //konstante
 	
 	// Default constructor
 	public Calculator() {}
