@@ -3,6 +3,7 @@ package sef.ATestTask.FirstActivity;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class EmployeeTest {
@@ -27,7 +28,7 @@ public class EmployeeTest {
     public void test_neg_empId() {
         Employee employee = new Employee();
         employee.setEmpId(-1);
-        assertEquals("getId", -1, employee.getEmpId());
+        assertTrue("Id is negative", employee.getEmpId() >= 0);
     }
 
     @Test

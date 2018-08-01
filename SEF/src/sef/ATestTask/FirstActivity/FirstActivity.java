@@ -48,8 +48,6 @@ public class FirstActivity {
             }
         }
 
-
-
                 //		System.out.println() result
         for(int i = 0; i < empCol.size(); i++) {
             empCol.get(i).announce();
