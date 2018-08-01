@@ -2,14 +2,17 @@ package sef.ATestTask.FirstActivity;
 
 
 public class Person {
+	String firstName;
+	String secondName;
+	int age;
 
 //TODO 1 Implement Person Attributes
 
 	//Behavior - default constructor
 	public Person(){
-		this.firstName="Unknown";
-		this.secondName = "Unknown";
-		this.age = 0;
+		this.firstName="ivan";
+		this.secondName = "ron";
+		this.age = 32;
 	}
 
 	//Behavior - parameterized constructor
@@ -21,10 +24,12 @@ public class Person {
 
 	// getter for String firstName
 	public String getFirstName() {
+
 		return firstName;
 	}
 
 	public void setFirstName(String firstName) {
+
 		this.firstName = firstName;
 	}
 
@@ -44,6 +49,13 @@ public class Person {
 
 	public void setSecondName(String secondName) {
 		this.secondName = secondName;
+
+	}
+	public String announce(){
+		return "my name is " +firstName  +secondName+ "and my age is "+age;
+	}
+
+	public void setName(String sam) {
 	}
 }
 
