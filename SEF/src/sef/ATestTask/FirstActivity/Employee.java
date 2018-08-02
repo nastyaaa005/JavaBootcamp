@@ -1,21 +1,16 @@
 package sef.ATestTask.FirstActivity;
 
-public class Employee {
+public class Employee extends Person {
 
-    public int empId;
-    public String jobTitle;
-    public String companyName;
-    public double salary;
+    private int empId;
+    private String jobTitle;
+    private String companyName;
+    private double salary;
 
     //TODO 1 create different constructors
-//    public Employee() {
-//        this.empId = 1;
-//        this.jobTitle = "developer";
-//        this.companyName = "Sonar";
-//        this.salary = 2000.00;
-//    }
 
-    public Employee(int empId, String jobTitle, String companyName, double salary) {
+    public Employee(String firstName, String secondName, int age, int empId, String jobTitle, String companyName, double salary) {
+        super(firstName, secondName, age);
         this.empId = empId;
         this.jobTitle = jobTitle;
         this.companyName = companyName;
@@ -38,11 +33,4 @@ public class Employee {
     public double getSalary() { return salary; }
 
     public void setSalary(double salary) { this.salary = salary; }
-
-//    public static void main(String[ ] args) {
-//        Employee one = new Employee();
-//        System.out.println("My name is " +  one.firstName + " " + one.secondName + " and I am " + one.age + " years old.");
-//        System.out.println("I work as " +  one.jobTitle + " in " + one.companyName + ".");
-//    }
-
 }
