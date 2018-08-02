@@ -16,8 +16,9 @@ public class SecondActivity {
 		System.out.println("Division 10 on 5: " + calculator.divide(10, 5));
 		System.out.println("Multiplication 10.2 x 5: " + calculator.multiply(10.2, 5));
 		System.out.println("Multiplication 10 x 5: " + calculator.multiply(10, 5));
-		System.out.println("Subtraction 10.2 - 5: " + calculator.subtract(10.2, 5));
+		System.out.println("Subtraction 10.2 - 5: " + calculator.subtract(10.2d, 5d));
 		System.out.println("Subtraction 5 - 10: " + calculator.subtract(5, 10));
+		System.out.println("Subtraction 5 - 10 (float): " + calculator.subtract(5f, 10.2f));
 		System.out.println("Degree 5 in 2: " + calculator.degree(5, 2));
 
 	}

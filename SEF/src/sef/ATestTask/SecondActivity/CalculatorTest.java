@@ -84,7 +84,7 @@ public class CalculatorTest extends TestCase {
     }
 
     @Test
-    public void testDevideOnZero(){
+    public void testDivideOnZero(){
             try {
 
                 theCalculator.divide(2, 0);
@@ -101,9 +101,73 @@ public class CalculatorTest extends TestCase {
     }
 
     @Test
-    public void testDevideZero(){
+    public void testDivideZero(){
         assertEquals(0, theCalculator.divide(0, 2));
         assertEquals(0f, theCalculator.divide(0f, 2f));
         assertEquals(0.0, theCalculator.divide(0.0, 2.0));
+    }
+
+    @Test
+    public void testDivideInt(){
+        assertEquals(3, theCalculator.divide(6,2));
+    }
+
+
+    @Test
+    public void testDivideFloat(){
+        assertEquals(3f, theCalculator.divide(6f,2f));
+    }
+
+
+    @Test
+    public void testDivideDouble(){
+        assertEquals(3, theCalculator.divide(6,2),0);
+    }
+
+
+    public void testMultiplyInt() {
+        assertEquals(10, theCalculator.multiply(2, 5));
+    }
+
+    public void testMultiplyFloat() {
+        assertEquals(10f, theCalculator.multiply(2f, 5f));
+    }
+
+    public void testMultiplyDouble() {
+        assertEquals(10.0, theCalculator.multiply(2, 5), 0);
+    }
+
+    public void testMultiplyNegative() {
+        assertEquals(10, theCalculator.multiply(-2, -5));
+    }
+
+    public void testMultiplyNegativePositive() {
+        assertEquals(-10, theCalculator.multiply(2, -5));
+    }
+
+
+    public void testSubtractInt() {
+        assertEquals(10, theCalculator.subtract(20,10));
+    }
+
+    public void testSubtractFloat() {
+        assertEquals(10f, theCalculator.subtract(20f,10f));
+    }
+
+    public void testSubtractDouble() {
+        assertEquals(10.45, theCalculator.subtract(20.0, 9.55), 00);
+    }
+
+    public void testSubtractNegatives() {
+        assertEquals(-10, theCalculator.subtract(-20,-10));
+    }
+
+    public void testSubtractNegativeAndPositive() {
+        assertEquals(-30, theCalculator.subtract(-20, 10));
+    }
+
+    public void testDegree() {
+        assertEquals(1.0, theCalculator.degree(5, 0));
+        assertEquals(25.0, theCalculator.degree(5, 2), 0);
     }
 }
