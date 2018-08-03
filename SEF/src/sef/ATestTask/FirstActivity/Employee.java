@@ -18,10 +18,10 @@ public class Employee extends Person {
     }
     //parametrized
     public Employee(String companyName, int empId, String jobTitle, double salary){
-        this.companyName = "Unknown";
-        this.empId = 0;
-        this.jobTitle = "Unknown";
-        this.salary = 0.00;
+        this.companyName = companyName;
+        this.empId = empId;
+        this.jobTitle = jobTitle;
+        this.salary = salary;
     }
 
     //TODO 2 add getters and setters
@@ -73,5 +73,14 @@ public class Employee extends Person {
     @Override
     public String announce() {
         return super.announce() + "I am work as "+ getJobTitle()+" in "+getCompanyName();
+    }
+    //TODO 4: Method for change of all information
+
+    public void reSet(String companyName, int empId, String jobTitle, double salary)
+    {
+        this.companyName = companyName;
+        this.empId = empId;
+        this.jobTitle = jobTitle;
+        this.salary = salary;
     }
 }

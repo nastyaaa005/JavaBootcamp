@@ -1,5 +1,6 @@
 package sef.ATestTask.FirstActivity;
 
+import java.util.*;
 
 public class Person
 
@@ -29,6 +30,9 @@ public class Person
 	}
 
 		public void setFirstName (String firstName){
+
+		if(firstName.matches("(.)*(\\d)(.)*")) throw new InputMismatchException();
+
 		this.firstName = firstName;
 	}
 
@@ -47,6 +51,8 @@ public class Person
 	}
 
 		public void setSecondName (String secondName){
+
+		if(secondName.matches("(.)*(\\d)(.)*")) throw new InputMismatchException();
 		this.secondName = secondName;
 	}
 
