@@ -8,8 +8,9 @@ public class ThirdActivity {
     public static void main(String[] args) {
         ThirdActivity ta = new ThirdActivity();
         //TODO handle exception on proper way
-        ta.validateUser("Ivan");
+        ta.validateUser("John");
         ta.catchExeption();
+        ta.catchMe(4, 0);
     }
 
     void catchExeption() {
@@ -40,11 +41,15 @@ public class ThirdActivity {
 
     void catchMe(int num1, int num2) {
         //TODO Catch exeption
-            int result=num1/num2;
+        try {
+            int result = num1 / num2;
             System.out.println("The result is :" + result);
-
+        } catch (ArithmeticException e) {
+            System.out.println("Arithmetic Exception occurred.");
+        } finally {
             //TODO prints a message "Thank you for using this program." always
             System.out.println("Thank you for using this program.");
+        }
     }
 }
 
