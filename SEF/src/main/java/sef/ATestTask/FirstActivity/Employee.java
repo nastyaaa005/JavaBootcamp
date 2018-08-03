@@ -8,6 +8,12 @@ public class Employee extends Person {
     private double salary;
 
     //TODO 1 create different constructors
+//    public Employee() {
+//        this.empId = 1;
+//        this.jobTitle = "developer";
+//        this.companyName = "Sonar";
+//        this.salary = 2000.00;
+//    }
 
     public Employee(String firstName, String secondName, int age, int empId, String jobTitle, String companyName, double salary) {
         super(firstName, secondName, age);
@@ -33,4 +39,11 @@ public class Employee extends Person {
     public double getSalary() { return salary; }
 
     public void setSalary(double salary) { this.salary = salary; }
+
+//    public static void main(String[ ] args) {
+//        Employee one = new Employee();
+//        System.out.println("My name is " +  one.firstName + " " + one.secondName + " and I am " + one.age + " years old.");
+//        System.out.println("I work as " +  one.jobTitle + " in " + one.companyName + ".");
+//    }
+
 }
