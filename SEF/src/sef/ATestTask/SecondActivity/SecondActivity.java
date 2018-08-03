@@ -16,31 +16,31 @@ public class SecondActivity {
         int x = 66;
         int y = 5;
 
-        System.out.println( calculator.add(66,8));
-        System.out.println(calculator.sub(x,y));
-
-
+        System.out.println(calculator.getAdd(66,5));
+        System.out.println(calculator.getSub(x,y));
+        System.out.println(calculator.getMult(x,y));
+        System.out.println(calculator.getDiv(x,y));
 
     }
 
 
-    public  int add(int x, int y) {
+    public  int getAdd(int x, int y) {
         int result = x + y;
         return result;
     }
 
-    public int sub(int x, int y) {
+    public int getSub(int x, int y) {
         int result = x - y;
         return result;
     }
 
-    public int mult(int x, int y) {
+    public int getMult(int x, int y) {
         int result = x * y;
         return result;
     }
 
-    public int div(int x, int y) {
-        int result = x / y;
+    public double getDiv(double x, double y) {
+        double result = x / y;
         return result;
     }
 

@@ -73,7 +73,26 @@ public class FirstActivity {
 		// TIP - google bubble sort
 		//		System.out.println() result
 
+		boolean change;
 
+		do {
+			change = false;
+
+			for (int i = 0; i < list.size() - 1; i++) {
+				Employee a = list.get(i);
+				Employee b = list.get(i + 1);
+
+				if (a.getSalary() > b.getSalary()) {
+					list.set(i, b);
+					list.set(i + 1, a);
+					change = true;
+				}
+			}
+		} while (change);
+
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println("Sorted: " + list.get(i).getFirstName() + " have Salary = " + list.get(i).getSalary());
+		}
 		//TODO 4 Create method for total change employee information
 		// for example some employee change his work
 

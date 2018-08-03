@@ -28,6 +28,10 @@ public class Person {
 	}
 
 	public void setFirstName(String firstName) {
+		if (firstName.contains("\\d+")) {
+			throw new RuntimeException("First name is invalid.");
+		}
+
 		this.firstName = firstName;
 	}
 
@@ -46,9 +50,11 @@ public class Person {
 	}
 
 	public void setSecondName(String secondName) {
+		if (secondName.contains("\\d+")) {
+			throw new RuntimeException("Second name is invalid.");
+		}
+
 		this.secondName = secondName;
-
-
 	}
 
 	public void announce() {
