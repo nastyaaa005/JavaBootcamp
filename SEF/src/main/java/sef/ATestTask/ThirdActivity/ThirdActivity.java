@@ -28,17 +28,23 @@ public class ThirdActivity {
         int flag = 0;
         //TODO if name in a list -> set flag=1
         // if at the end flag=0 -> throw the exeption
+        for (String x : validUsers) {
+            if (x.equals(name)) {
+                flag = 1;
+            }
+        }
+        if(flag == 0) {
+            throw new RuntimeException("Name not found " + name + ".");
+        }
     }
 
-    void catchMe(int num1, int num2)
-    {
+    void catchMe(int num1, int num2) {
         //TODO Catch exeption
             int result=num1/num2;
             System.out.println("The result is :" + result);
 
             //TODO prints a message "Thank you for using this program." always
             System.out.println("Thank you for using this program.");
-
     }
 }
 
