@@ -5,18 +5,42 @@ public class SecondActivity {
 
 	public static void main(String[] args) {
 
-		SecondActivity calculator = new SecondActivity();
-		int x = 4;
-		int y = 7;
-		int z = 1;
+		SecondActivity calc = new SecondActivity();
+
+		System.out.println("The result for sum x and y is " + calc.add(4, 7));
+		System.out.println("The result for multiply x and y is " + calc.multiply(4, 7));
+		System.out.println("The result for divide x and y is " + calc.divide(4, 7));
+		System.out.println("The result for subtract x and y is " + calc.subtract(4, 7));
 	}
 
-	public static int add(int x, int y, int z) {
-		int sum = x + y + z;
-		return sum;
+
+
+	public int add(int x, int y) {
+
+		return (x + y);
 
 	}
 
+	public int multiply(int x, int y) {
+
+		return (x * y);
+	}
+
+	public float divide(float x, float y) {
+
+		return (y / x);
+	}
+
+	public int subtract(int x, int y) {
+		int diff = 0;
+		if (x > y) {
+			diff = x - y;
+		} else {
+			diff = y - x;
+		}
+
+		return diff;
+	}
 
 }
 
@@ -28,8 +52,8 @@ public class SecondActivity {
 		// and more
 
 
-	}
+
 
 	//TODO create the Calculator (here or in additional class)
 
-}
+
