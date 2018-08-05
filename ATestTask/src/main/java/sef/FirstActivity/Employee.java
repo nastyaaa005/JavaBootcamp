@@ -4,6 +4,8 @@ import static java.lang.System.out;
 
 public class Employee extends Person {
 
+    // vars
+
     private int employeeId;
     private int salary;
     private String companyName;
